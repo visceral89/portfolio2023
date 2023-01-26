@@ -13,8 +13,7 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				primary: ["var(--jet-font)", ...fontFamily.sans],
-				serif: ["var(--jet-font)", ...fontFamily.serif],
+				jet: ["JetBrainsMono", "sans-serif"],
 			},
 		},
 	},
