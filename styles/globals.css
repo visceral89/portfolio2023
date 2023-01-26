@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+	/* Global Vars */
+	--main-bg-color: #1e1e1e;
+	--main-font-color: #eaeaea;
+}
+
 * {
 	font-family: var(--jet-font);
+}
+
+body {
+	color: var(--main-font-color);
+	background: var(--main-bg-color);
 }
