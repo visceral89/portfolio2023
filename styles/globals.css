@@ -16,3 +16,7 @@ body {
 	color: var(--main-font-color);
 	background: var(--main-bg-color);
 }
+
+.bg-image{
+	z-index: -9999;
+}

@@ -1,7 +1,9 @@
 import React from "react";
 import Head from "next/head";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { JetBrains_Mono } from "@next/font/google";
+import background from "assets/dotgrid.svg";
 
 const jetbrain = JetBrains_Mono({
 	subsets: ["latin"],
@@ -31,6 +33,13 @@ const Layout = ({ children }) => {
 					damping: 20,
 				}}
 			>
+				<Image
+					className="bg-image"
+					src={background}
+					alt=""
+					layout="fill"
+					objectPosition="center"
+				/>
 				{children}
 			</motion.main>
 		</>

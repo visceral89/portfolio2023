@@ -11,8 +11,14 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<h1 className="text-8xl">Hello</h1>
-			<p>Testing</p>
+			<div>
+				<h1 className="text-8xl">rasmus bremholm</h1>
+				<h2>frontend portfolio</h2>
+				<p>
+					This site is currently under construction, but you can still reach out
+					to me here:
+				</p>
+			</div>
 		</>
 	);
 }
