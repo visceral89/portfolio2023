@@ -1,10 +1,23 @@
 import React from "react";
 import Head from "next/head";
 import { motion } from "framer-motion";
+import { JetBrains_Mono } from "@next/font/google";
+
+const jetbrain = JetBrains_Mono({
+	subsets: ["latin"],
+	display: "optional",
+});
 
 const Layout = ({ children }) => {
 	return (
 		<>
+			<style jsx global>
+				{`
+					:root {
+						--jet-font: ${jetbrain.style.fontFamily};
+					}
+				`}
+			</style>
 			<Head>
 				<title>Rasmus Bremholm Portfolio</title>
 			</Head>
