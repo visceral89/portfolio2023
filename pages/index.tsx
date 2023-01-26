@@ -16,17 +16,17 @@ export default function Home() {
 				<div className="flex gap-5 m-10 text-2xl">
 					<ul>
 						<Link href="https://www.youtube.com/c/Visceral3D">
-							<li className="hover:text-slate-300">youtube</li>
+							<li className="list">youtube</li>
 						</Link>
 
 						<Link href="https://www.artstation.com/visceral3d">
-							<li className="hover:text-slate-300">artstation</li>
+							<li className="list">artstation</li>
 						</Link>
 						<Link href="https://github.com/Visceral89">
-							<li className="hover:text-slate-300">github</li>
+							<li className="list">github</li>
 						</Link>
 						<Link href="/">
-							<li className="hover:text-slate-300">Contact</li>
+							<li className="list">Contact</li>
 						</Link>
 					</ul>
 				</div>

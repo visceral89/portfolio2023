@@ -18,3 +18,7 @@ body {
 	color: var(--main-font-color);
 	background: var(--main-bg-color);
 }
+
+.list {
+	@apply hover:text-slate-300;
+}
