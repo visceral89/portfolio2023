@@ -11,7 +11,7 @@ const jetbrain = JetBrains_Mono({
 const Layout = ({ children }) => {
 	return (
 		<>
-			<style jsx global>
+			<style global>
 				{`
 					:root {
 						--jet-font: ${jetbrain.style.fontFamily};
