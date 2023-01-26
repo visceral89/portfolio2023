@@ -15,7 +15,7 @@ export default function Home() {
 
 				<div className="flex gap-5 m-10 text-2xl">
 					<ul>
-						<Link href="https://www.youtube.com/@Visceral3D/featured">
+						<Link href="https://www.youtube.com/c/Visceral3D">
 							<li className="hover:text-slate-300">youtube</li>
 						</Link>
 
