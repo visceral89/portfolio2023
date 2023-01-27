@@ -24,6 +24,11 @@ const Layout = ({ children }) => {
 					name="keywords"
 					content="Frontend, 3D, Teacher, Rasmus, Bremholm, Portfolio"
 				></meta>
+				<meta
+					name="description"
+					content="Rasmus Bremholm Portfolio | Frontend Developer, Teacher, 3D Artist and SEO Expert | Come in contact with me here!"
+					key="desc"
+				></meta>
 			</Head>
 
 			{children}

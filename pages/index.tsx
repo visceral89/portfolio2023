@@ -41,6 +41,7 @@ export default function Home() {
 					</nav>
 				</div>
 			</div>
+			<Image src="hazard-cube.svg" width={512} height={512} alt="" />
 		</>
 	);
 }
