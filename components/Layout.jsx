@@ -13,12 +13,18 @@ const Layout = ({ children }) => {
 	return (
 		<>
 			<Head>
+				<html lang="en" />
 				<title>Rasmus Bremholm Portfolio</title>
 				<meta
 					property="og:title"
 					content="Rasmus Bremholm | Frontend Developer | 3D Artist | Teacher | SEO Expert"
 					key="title"
 				/>
+				<meta charset="UTF-8"></meta>
+				<meta
+					name="keywords"
+					content="Frontend, 3D, Teacher, Rasmus, Bremholm, Portfolio"
+				></meta>
 			</Head>
 
 			{children}
