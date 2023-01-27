@@ -7,7 +7,7 @@ export default function Home() {
 	return (
 		<>
 			<div className="flex flex-col m-20 font-jet uppercase gap-2 content-start justify-start shrink">
-				<h1 className="text-8xl font-extrabold">rasmus bremholm</h1>
+				<h1 className="md:text-8xl text-6xl font-extrabold">rasmus bremholm</h1>
 				<h2 className="text-4xl opacity-60">frontend portfolio</h2>
 				<p className="text-xl">
 					This site is currently under construction, but you can still reach out
@@ -41,7 +41,13 @@ export default function Home() {
 					</nav>
 				</div>
 			</div>
-			<Image src="hazard-cube.svg" width={512} height={512} alt="" />
+			<Image
+				className="absolute bottom-0 right-0"
+				src="hazard-cube.svg"
+				width={256}
+				height={256}
+				alt=""
+			/>
 		</>
 	);
 }
