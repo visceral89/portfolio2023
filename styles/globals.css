@@ -20,5 +20,9 @@ body {
 }
 
 .list {
-	@apply hover:text-slate-300;
+	@apply flex flex-row justify-start items-center hover:text-slate-300;
+}
+
+.list-icon {
+	@apply invisible group-hover:visible;
 }
