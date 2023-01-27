@@ -13,6 +13,7 @@ const Layout = ({ children }) => {
 	return (
 		<>
 			<Head>
+				<html lang="en" />
 				<title>Rasmus Bremholm Portfolio</title>
 				<meta
 					property="og:title"
