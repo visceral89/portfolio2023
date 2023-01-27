@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
 					content="Rasmus Bremholm | Frontend Developer | 3D Artist | Teacher | SEO Expert"
 					key="title"
 				/>
-				<meta charset="UTF-8"></meta>
+				<meta charSet="UTF-8"></meta>
 				<meta
 					name="keywords"
 					content="Frontend, 3D, Teacher, Rasmus, Bremholm, Portfolio"
