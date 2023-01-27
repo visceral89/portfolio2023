@@ -34,9 +34,12 @@ export default function Home() {
 							<MdArrowForwardIos className="list-icon" />
 							github
 						</Link>
-						<Link className="list group" href="/">
+						<Link
+							className="list group"
+							href="https://www.linkedin.com/in/rasmus-bremholm-7857b740/"
+						>
 							<MdArrowForwardIos className="list-icon" />
-							Contact
+							Contact me
 						</Link>
 					</nav>
 				</div>
