@@ -16,7 +16,6 @@
 
 body {
 	color: var(--main-font-color);
-	background-image: url("/public/grid.svg");
 	background: var(--main-bg-color);
 }
 
@@ -26,4 +25,8 @@ body {
 
 .list-icon {
 	@apply invisible group-hover:visible;
+}
+
+main {
+	background-image: url("../public/grid.svg");
 }
