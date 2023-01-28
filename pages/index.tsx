@@ -13,37 +13,38 @@ export default function Home() {
 					This site is currently under construction, but you can still reach out
 					to me here:
 				</p>
-
-				<div>
-					<nav className="flex flex-col flex-initial gap-2 m-10 text-2xl shrink">
-						<Link
-							className="list group"
-							href="https://www.youtube.com/c/Visceral3D"
-						>
-							<MdArrowForwardIos className="list-icon" />
-							youtube
-						</Link>
-						<Link
-							className="list group"
-							href="https://www.artstation.com/visceral3d"
-						>
-							<MdArrowForwardIos className="list-icon" />
-							artstation
-						</Link>
-						<Link className="list group" href="https://github.com/Visceral89">
-							<MdArrowForwardIos className="list-icon" />
-							github
-						</Link>
-						<Link
-							className="list group"
-							href="https://www.linkedin.com/in/rasmus-bremholm-7857b740/"
-						>
-							<MdArrowForwardIos className="list-icon" />
-							Contact me
-						</Link>
-					</nav>
-				</div>
 			</div>
+
+			<div className="flex m-20 uppercase">
+				<nav className="flex flex-col flex-initial gap-2 m-10 text-2xl">
+					<Link
+						className="list group"
+						href="https://www.youtube.com/c/Visceral3D"
+					>
+						<MdArrowForwardIos className="list-icon" />
+						youtube
+					</Link>
+					<Link
+						className="list group"
+						href="https://www.artstation.com/visceral3d"
+					>
+						<MdArrowForwardIos className="list-icon" />
+						artstation
+					</Link>
+					<Link className="list group" href="https://github.com/Visceral89">
+						<MdArrowForwardIos className="list-icon" />
+						github
+					</Link>
+					<Link
+						className="list group"
+						href="https://www.linkedin.com/in/rasmus-bremholm-7857b740/"
+					>
+						<MdArrowForwardIos className="list-icon" />
+						Contact me
+					</Link>
+				</nav>
+			</div>
+
 			<Image
 				className="absolute bottom-0 right-0"
 				src="hazard-cube.svg"
