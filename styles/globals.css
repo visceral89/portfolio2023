@@ -20,11 +20,7 @@ body {
 }
 
 .list {
-	@apply flex flex-row justify-start items-center hover:text-slate-300;
-}
-
-.list-icon {
-	@apply invisible group-hover:visible;
+	@apply flex flex-row justify-start items-center hover:text-sky-300 gap-5;
 }
 
 main {

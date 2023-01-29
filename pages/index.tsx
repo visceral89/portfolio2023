@@ -8,7 +8,7 @@ export default function Home() {
 		<>
 			<div className="flex flex-col m-20 font-jet uppercase gap-2 content-start justify-start shrink">
 				<h1 className="md:text-8xl text-6xl font-extrabold">rasmus bremholm</h1>
-				<h2 className="text-4xl opacity-60">frontend portfolio</h2>
+				<h2 className="text-4xl opacity-60 text-sky-300">frontend portfolio</h2>
 				<p className="text-xl">
 					This site is currently under construction, but you can still reach out
 					to me here:
@@ -21,26 +21,41 @@ export default function Home() {
 						className="list group"
 						href="https://www.youtube.com/c/Visceral3D"
 					>
-						<MdArrowForwardIos className="list-icon" />
+						<Image
+							src="youtube.svg"
+							height={24}
+							width={24}
+							alt="youtube logo"
+						/>
 						youtube
 					</Link>
 					<Link
 						className="list group"
 						href="https://www.artstation.com/visceral3d"
 					>
-						<MdArrowForwardIos className="list-icon" />
+						<Image
+							src="artstation.svg"
+							height={24}
+							width={24}
+							alt="artstation logo"
+						/>
 						artstation
 					</Link>
 					<Link className="list group" href="https://github.com/Visceral89">
-						<MdArrowForwardIos className="list-icon" />
+						<Image src="github.svg" height={24} width={24} alt="github logo" />
 						github
 					</Link>
 					<Link
 						className="list group"
 						href="https://www.linkedin.com/in/rasmus-bremholm-7857b740/"
 					>
-						<MdArrowForwardIos className="list-icon" />
-						Contact me
+						<Image
+							src="linkedin.svg"
+							height={24}
+							width={24}
+							alt="linkedin logo"
+						/>
+						Contact
 					</Link>
 				</nav>
 			</div>
