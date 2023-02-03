@@ -23,6 +23,10 @@ body {
 	@apply flex flex-row justify-start items-center hover:text-sky-300 gap-5;
 }
 
-main {
-	background-image: url("../public/grid.svg");
+.dotgrid {
+	height: 100vh;
+	width: 100vw;
+	background-image: url("../public/dots.svg");
+	overflow: hidden;
+	background-size: 100%;
 }
