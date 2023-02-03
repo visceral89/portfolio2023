@@ -26,7 +26,8 @@ body {
 .dotgrid {
 	height: 100vh;
 	width: 100vw;
-	background-image: url("../public/dots.svg");
+	background-image: url("../public/final_grid.svg");
 	overflow: hidden;
-	background-size: 100%;
+	background-size: cover;
+	background-position: center;
 }
