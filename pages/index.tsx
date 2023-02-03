@@ -61,7 +61,7 @@ export default function Home() {
 			</div>
 
 			<Image
-				className="absolute bottom-0 right-0 invisible md:visible"
+				className="absolute bottom-[60px] right-[55px] invisible md:visible"
 				src="hazard-cube.svg"
 				width={256}
 				height={256}
