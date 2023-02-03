@@ -30,8 +30,7 @@ const Layout = ({ children }) => {
 					key="desc"
 				></meta>
 			</Head>
-
-			{children}
+			<main className="dotgrid">{children}</main>
 		</>
 	);
 };
