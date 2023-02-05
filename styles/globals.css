@@ -31,6 +31,10 @@ body {
 	@apply w-[100%];
 }
 
+.hazard_link:hover {
+	@apply opacity-90 duration-300;
+}
+
 .dotgrid {
 	height: 100vh;
 	width: 100vw;
