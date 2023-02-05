@@ -20,7 +20,15 @@ body {
 }
 
 .list {
-	@apply flex flex-row justify-start items-center hover:text-sky-300 gap-5;
+	@apply flex flex-row justify-start items-center hover:opacity-60 gap-5 relative;
+}
+
+.list-text::after {
+	@apply content-[''] absolute bg-white h-[3px] w-[0%] left-0 bottom-[-3px] duration-300;
+}
+
+.list-text:hover::after {
+	@apply w-[100%];
 }
 
 .dotgrid {
