@@ -8,7 +8,7 @@ export default function Home() {
 		<>
 			<div className="flex flex-col m-20 font-jet uppercase gap-2 content-start justify-start shrink">
 				<h1 className="md:text-8xl text-6xl font-extrabold">rasmus bremholm</h1>
-				<h2 className="text-4xl opacity-60 text-sky-300">frontend portfolio</h2>
+				<h2 className="text-4xl opacity-60">frontend portfolio</h2>
 				<p className="text-xl">
 					This site is currently under construction, but you can still reach out
 					to me here:
@@ -27,7 +27,7 @@ export default function Home() {
 							width={24}
 							alt="youtube logo"
 						/>
-						youtube
+						<p className="list-text">youtube</p>
 					</Link>
 					<Link
 						className="list group"
@@ -39,11 +39,11 @@ export default function Home() {
 							width={24}
 							alt="artstation logo"
 						/>
-						artstation
+						<p className="list-text">artstation</p>
 					</Link>
 					<Link className="list group" href="https://github.com/Visceral89">
 						<Image src="github.svg" height={24} width={24} alt="github logo" />
-						github
+						<p className="list-text">github</p>
 					</Link>
 					<Link
 						className="list group"
@@ -55,18 +55,19 @@ export default function Home() {
 							width={24}
 							alt="linkedin logo"
 						/>
-						Contact
+						<p className="list-text">contact</p>
 					</Link>
 				</nav>
 			</div>
-
-			<Image
-				className="absolute bottom-[60px] right-[55px] invisible md:visible"
-				src="hazard-cube.svg"
-				width={256}
-				height={256}
-				alt=""
-			/>
+			<Link className="hazard_link" href="/secret/secret/">
+				<Image
+					className="absolute bottom-[60px] right-[55px] invisible md:visible"
+					src="hazard-cube.svg"
+					width={256}
+					height={256}
+					alt=""
+				/>
+			</Link>
 		</>
 	);
 }
