@@ -59,14 +59,15 @@ export default function Home() {
 					</Link>
 				</nav>
 			</div>
-
-			<Image
-				className="absolute bottom-[60px] right-[55px] invisible md:visible"
-				src="hazard-cube.svg"
-				width={256}
-				height={256}
-				alt=""
-			/>
+			<Link className="hazard_link" href="/secret/secret/">
+				<Image
+					className="absolute bottom-[60px] right-[55px] invisible md:visible"
+					src="hazard-cube.svg"
+					width={256}
+					height={256}
+					alt=""
+				/>
+			</Link>
 		</>
 	);
 }
