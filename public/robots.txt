@@ -1,0 +1,7 @@
+# Block Secret pages.
+
+Disallow: /secret
+
+#Allow all crawlers!
+User-agent: *
+Allow: /
