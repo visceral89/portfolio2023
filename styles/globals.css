@@ -37,7 +37,7 @@ body {
 
 .dotgrid {
 	background-image: radial-gradient(
-		rgba(255, 255, 255, 0.03) 5%,
+		rgba(255, 255, 255, 0.05) 5%,
 		transparent 9%
 	);
 	background-position: 0% 0%;
