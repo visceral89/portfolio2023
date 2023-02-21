@@ -61,7 +61,7 @@ export default function Home() {
 			</div>
 			<Link className="hazard_link" href="/secret/secret/">
 				<Image
-					className="absolute bottom-[60px] right-[55px] invisible md:visible"
+					className="absolute -z-10 bottom-[40px] right-[55px] invisible md:visible"
 					src="hazard-cube.svg"
 					width={256}
 					height={256}

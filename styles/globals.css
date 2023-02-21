@@ -37,7 +37,7 @@ body {
 
 .dotgrid {
 	background-image: radial-gradient(
-		rgba(255, 255, 255, 0.03) 5%,
+		rgba(255, 255, 255, 0.05) 5%,
 		transparent 9%
 	);
 	background-position: 0% 0%;
@@ -48,16 +48,5 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	z-index: -1;
+	z-index: -999;
 }
-
-/*
-.dotgrid {
-	height: 100vh;
-	width: 100vw;
-	background-image: url("../public/final_grid.svg");
-	overflow: hidden;
-	background-size: cover;
-	background-position: center;
-}
-*/
