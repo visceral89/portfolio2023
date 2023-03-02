@@ -15,7 +15,6 @@ export default function Home() {
 							strings: ["frontend developer", "3d artist", "teacher"],
 							autoStart: true,
 							loop: true,
-							pauseFor: 2500,
 							deleteSpeed: 1,
 						}}
 					/>
