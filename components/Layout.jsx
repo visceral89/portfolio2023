@@ -10,7 +10,7 @@ const jetbrain = JetBrains_Mono({
 	display: "optional",
 });
 
-const googleId = process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID;
+const googleId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS;
 
 const Layout = ({ children }) => {
 	return (
