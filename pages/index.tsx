@@ -6,11 +6,8 @@ import Typewriter from "typewriter-effect";
 import Script from "next/script";
 
 export default function Home() {
-
-	
 	return (
 		<>
-
 			<div className="flex flex-col m-20 font-jet uppercase gap-2 content-start justify-start shrink">
 				<h1 className="md:text-8xl text-6xl font-extrabold">rasmus bremholm</h1>
 				<h2 className="text-4xl opacity-60">
