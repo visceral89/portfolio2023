@@ -32,14 +32,14 @@ const Layout = ({ children }) => {
 					content="Rasmus Bremholm Portfolio | Frontend Developer, Teacher, 3D Artist and SEO Expert | Come in contact with me here!"
 					key="desc"
 				></meta>
-			</Head>
-			<Script
-				strategy="afterInteractive"
-				src={`https://www.googletagmanager.com/gtag/js?id=${googleId}`}
-			/>
 
-			<Script id="google-analytics" strategy="afterInteractive">
-				{`
+				<Script
+					strategy="afterInteractive"
+					src={`https://www.googletagmanager.com/gtag/js?id=${googleId}`}
+				/>
+
+				<Script id="google-analytics" strategy="afterInteractive">
+					{`
 		window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
@@ -47,7 +47,9 @@ const Layout = ({ children }) => {
 	    page_path: window.location.pathname,
 	  });
 	`}
-			</Script>
+				</Script>
+			</Head>
+
 			<main>
 				{children} <div className="dotgrid"></div>
 			</main>
