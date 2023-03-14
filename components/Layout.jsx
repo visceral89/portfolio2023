@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { JetBrains_Mono } from "@next/font/google";
+import Script from "next/script";
 
 const jetbrain = JetBrains_Mono({
 	subsets: ["latin"],
@@ -30,6 +31,21 @@ const Layout = ({ children }) => {
 					key="desc"
 				></meta>
 			</Head>
+			<Script
+				strategy="afterInteractive"
+				src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+			/>
+
+			<Script id="google-analytics" strategy="afterInteractive">
+				{`
+		window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+	    page_path: window.location.pathname,
+	  });
+	`}
+			</Script>
 			<main>
 				{children} <div className="dotgrid"></div>
 			</main>
