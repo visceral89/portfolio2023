@@ -33,12 +33,12 @@ const Layout = ({ children }) => {
 					key="desc"
 				></meta>
 
-				<Script
-					strategy="afterInteractive"
-					src={`https://www.googletagmanager.com/gtag/js?id=${googleId}`}
-				/>
+				<script>
+					strategy="afterInteractive" src=
+					{`https://www.googletagmanager.com/gtag/js?id=${googleId}`}
+				</script>
 
-				<Script id="google-analytics" strategy="afterInteractive">
+				<script id="google-analytics" strategy="afterInteractive">
 					{`
 		window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
@@ -47,7 +47,7 @@ const Layout = ({ children }) => {
 	    page_path: window.location.pathname,
 	  });
 	`}
-				</Script>
+				</script>
 			</Head>
 
 			<main>
