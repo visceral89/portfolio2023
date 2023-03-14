@@ -3,10 +3,28 @@ import Image from "next/image";
 import Link from "next/link";
 import { MdArrowForwardIos } from "react-icons/md";
 import Typewriter from "typewriter-effect";
+import Script from "next/script";
 
 export default function Home() {
 	return (
 		<>
+<Script
+	strategy="afterInteractive"
+	src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+/>
+
+<Script
+	id="google-analytics"
+	strategy="afterInteractive">
+	{`
+		window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+	    page_path: window.location.pathname,
+	  });
+	`}
+/>
 			<div className="flex flex-col m-20 font-jet uppercase gap-2 content-start justify-start shrink">
 				<h1 className="md:text-8xl text-6xl font-extrabold">rasmus bremholm</h1>
 				<h2 className="text-4xl opacity-60">
