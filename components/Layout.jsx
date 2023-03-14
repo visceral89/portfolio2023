@@ -10,6 +10,8 @@ const jetbrain = JetBrains_Mono({
 	display: "optional",
 });
 
+const googleId = process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID;
+
 const Layout = ({ children }) => {
 	return (
 		<>
@@ -33,7 +35,7 @@ const Layout = ({ children }) => {
 			</Head>
 			<Script
 				strategy="afterInteractive"
-				src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+				src={`https://www.googletagmanager.com/gtag/js?id=${googleId}`}
 			/>
 
 			<Script id="google-analytics" strategy="afterInteractive">
@@ -41,7 +43,7 @@ const Layout = ({ children }) => {
 		window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
-	  gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+	  gtag('config', '${googleId}', {
 	    page_path: window.location.pathname,
 	  });
 	`}
