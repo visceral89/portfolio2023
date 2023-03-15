@@ -1,8 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+<<<<<<< Updated upstream
 import { MdArrowForwardIos } from "react-icons/md";
 import Typewriter from "typewriter-effect";
+=======
+>>>>>>> Stashed changes
 
 export default function Home() {
 	return (
