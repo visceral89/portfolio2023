@@ -10,7 +10,7 @@ const jetbrain = JetBrains_Mono({
 	display: "optional",
 });
 
-const googleId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS;
+
 
 const Layout = ({ children }) => {
 	return (
@@ -32,22 +32,6 @@ const Layout = ({ children }) => {
 					content="Rasmus Bremholm Portfolio | Frontend Developer, Teacher, 3D Artist and SEO Expert | Come in contact with me here!"
 					key="desc"
 				></meta>
-
-				<script>
-					strategy="afterInteractive" src=
-					{`https://www.googletagmanager.com/gtag/js?id=${googleId}`}
-				</script>
-
-				<script id="google-analytics" strategy="afterInteractive">
-					{`
-		window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	  gtag('config', '${googleId}', {
-	    page_path: window.location.pathname,
-	  });
-	`}
-				</script>
 			</Head>
 
 			<main>
