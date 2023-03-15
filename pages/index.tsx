@@ -7,16 +7,7 @@ export default function Home() {
 		<>
 			<div className="flex flex-col m-20 font-jet uppercase gap-2 content-start justify-start shrink">
 				<h1 className="md:text-8xl text-6xl font-extrabold">rasmus bremholm</h1>
-				<h2 className="text-4xl opacity-60">
-					<Typewriter
-						options={{
-							strings: ["frontend developer", "3d artist", "teacher"],
-							autoStart: true,
-							loop: true,
-							deleteSpeed: 1,
-						}}
-					/>
-				</h2>
+				<h2 className="text-4xl opacity-60"></h2>
 				<p className="text-xl">
 					This site is currently under construction, but you can still reach out
 					to me here:
