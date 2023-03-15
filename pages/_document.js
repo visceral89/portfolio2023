@@ -13,8 +13,8 @@ export default function Document() {
 				></script>
 				<script>
 					window.dataLayer = window.dataLayer || []; function gtag()
-					{dataLayer.push(arguments)}; gtag('js', new Date()); gtag('config', `$
-					{googleId}`)
+					{dataLayer.push(arguments)}; gtag('js', new Date()); gtag('config',
+					{`${googleId}`});
 				</script>
 			</Head>
 			<body>
