@@ -1,7 +1,7 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import Script from "next/script";
 
-const googleId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS;
+const googleId = process.env.GOOGLE_ANALYTICS;
 
 export default function Document() {
 	return (
