@@ -12,6 +12,21 @@ const googleId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS;
 export default function App({ Component, pageProps }: AppProps) {
 	return (
 		<>
+			<Script
+				strategy="lazyOnload"
+				src={`https://www.googletagmanager.com/gtag/js?id=${googleId}`}
+			/>
+
+			<Script strategy="lazyOnload">
+				{`
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', '${googleId}', {
+		page_path: window.location.pathname,
+		});
+	`}
+			</Script>
 			<AnimatePresence mode="wait" initial={false}>
 				<main className="jetbrains.className">
 					<Layout>
