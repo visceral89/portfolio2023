@@ -1,0 +1,27 @@
+@import "variables";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: $font-size-base;
+	line-height: 1.6;
+}
+
+body {
+	// font-family: $font-family-base;
+	background-color: $color-bg;
+	color: $color-text;
+}
+
+a {
+	color: $color-text;
+	text-decoration: none;
+	&:hover,
+	&:focus {
+		color: darken($color-text, 10%);
+	}
+}
