@@ -1,0 +1,22 @@
+@import "../utils/variables";
+
+.heroSection {
+	position: relative;
+	background-color: $color-bg;
+	z-index: 1;
+	width: 100vw;
+	height: 700px;
+
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-image: url("../../../public/noise.png");
+		background-repeat: repeat;
+		opacity: $noise-opacity;
+		z-index: -1;
+	}
+}

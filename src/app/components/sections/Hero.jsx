@@ -4,7 +4,7 @@ import Image from "next/image";
 const Hero = () => {
 	return (
 		<section className={styles.heroSection}>
-			<div className={styles.titleText}>{/* Title Text goes here */}</div>
+			<div className={styles.titleText}>Hello{/* Title Text goes here */}</div>
 			<div className={styles.titleImage}>{/* Image goes here */}</div>
 		</section>
 	);
