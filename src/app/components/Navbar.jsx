@@ -1,7 +1,14 @@
 import Link from "next/link";
 import styles from "../styles/Navbar.module.scss";
+import { useState } from "react";
 
 const Navbar = () => {
+	const [isOpen, setIsOpen] = useState;
+
+	const toggleMenu = () => {
+		setIsOpen(!isOpen);
+	};
+
 	return (
 		<nav className={styles.navBar}>
 			<Link href='/'>
