@@ -1,7 +1,7 @@
 @import "../utils/variables";
 .navBar {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	padding-left: spacing(20);
 	padding-right: spacing(20);
@@ -11,15 +11,12 @@
 
 .navBarLogo {
 	height: 100%;
-	margin-right: $spacing-grande;
-	flex: 1;
 }
 .navBarLinks {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: $spacing-xxl;
-	margin-right: $spacing-grande;
 }
 .logoBold {
 	font-weight: 700;
