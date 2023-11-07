@@ -1,23 +1,25 @@
 @import "../utils/variables";
 .navBar {
 	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
+	justify-content: space-between;
 	align-items: center;
-	margin-left: $spacing-xxl;
-	margin-right: $spacing-xxl;
+	padding-left: $spacing-xxl;
+	padding-right: $spacing-xxl;
+	text-transform: uppercase;
+	height: 5rem;
 }
 
 .navBarLogo {
 	height: 100%;
 	margin-right: $spacing-xxl;
+	flex: 1;
 }
 .navBarLinks {
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	gap: $spacing-lg;
+	margin-right: $spacing-xxl;
 }
 .logoBold {
 	font-weight: 700;
