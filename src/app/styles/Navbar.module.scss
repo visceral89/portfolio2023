@@ -3,23 +3,23 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-left: $spacing-xxl;
-	padding-right: $spacing-xxl;
+	padding-left: spacing(20);
+	padding-right: spacing(20);
 	text-transform: uppercase;
-	height: 5rem;
+	height: spacing(20);
 }
 
 .navBarLogo {
 	height: 100%;
-	margin-right: $spacing-xxl;
+	margin-right: $spacing-grande;
 	flex: 1;
 }
 .navBarLinks {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: $spacing-lg;
-	margin-right: $spacing-xxl;
+	gap: $spacing-xxl;
+	margin-right: $spacing-grande;
 }
 .logoBold {
 	font-weight: 700;
