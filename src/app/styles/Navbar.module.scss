@@ -1,0 +1,18 @@
+@import "../utils/variables";
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.navbarLogo {
+}
+.navbarLinks {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: $spacing-lg;
+}

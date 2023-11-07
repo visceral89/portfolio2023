@@ -1,19 +1,15 @@
 import Link from "next/link";
+import styles from "../styles/Navbar.module.scss";
 
 const Navbar = () => {
 	return (
-		<nav>
-			<ul>
-				<Link href="">
-					<li>about</li>
-				</Link>
-				<Link href="">
-					<li>resume</li>
-				</Link>
-				<Link href="">
-					<li>contact</li>
-				</Link>
-			</ul>
+		<nav className={styles.navBar}>
+			<div className={styles.navBarLogo}></div>
+			<div className={styles.navBarLinks}>
+				<Link href=''>about</Link>
+				<Link href=''>resume</Link>
+				<Link href=''>contact</Link>
+			</div>
 		</nav>
 	);
 };
