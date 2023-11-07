@@ -7,10 +7,15 @@
 	padding-right: spacing(20);
 	text-transform: uppercase;
 	height: spacing(20);
+	background-color: transparent;
 }
 
 .navBarLogo {
-	height: 100%;
+	font-weight: 300;
+	font-style: normal;
+	span {
+		font-style: bold;
+	}
 }
 .navBarLinks {
 	display: flex;
