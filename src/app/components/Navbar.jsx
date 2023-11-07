@@ -1,9 +1,11 @@
+"use client";
+
 import Link from "next/link";
 import styles from "../styles/Navbar.module.scss";
 import { useState } from "react";
 
 const Navbar = () => {
-	const [isOpen, setIsOpen] = useState;
+	const [isOpen, setIsOpen] = useState(false);
 
 	const toggleMenu = () => {
 		setIsOpen(!isOpen);

@@ -1,4 +1,6 @@
 @import "../utils/variables";
+@import "../utils/mixins";
+
 .navBar {
 	display: flex;
 	justify-content: space-around;
@@ -8,6 +10,12 @@
 	text-transform: uppercase;
 	height: spacing(20);
 	background-color: transparent;
+
+	@include respond-to("tablet") {
+		.navBarLogo {
+			display: none;
+		}
+	}
 }
 
 .navBarLogo {
