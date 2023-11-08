@@ -3,6 +3,7 @@
 import Link from "next/link";
 import styles from "../styles/Navbar.module.scss";
 import { useState } from "react";
+import MenuIcon from "@mui/icons-material/Menu";
 
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -16,11 +17,16 @@ const Navbar = () => {
 			<Link href='/'>
 				<div className={styles.navBarLogo}>
 					<h1>
-						<span>Rasmus </span>Bremholm
+						<span className={styles.thick}>Rasmus </span>Bremholm
 					</h1>
 				</div>
 			</Link>
-			<div className={styles.navBarLinks}>
+			<div className={styles.hamburgerMenu} onClick={toggleMenu}>
+				{" "}
+				{/* Removed quotes */}
+				<MenuIcon />
+			</div>
+			<div className={`${styles.navBarLinks} ${isOpen ? styles.show : ""}`}>
 				<Link href='/3d'>3D</Link>
 				<Link href='/blog'>blog</Link>
 				<Link href='/webdev'>frontend</Link>

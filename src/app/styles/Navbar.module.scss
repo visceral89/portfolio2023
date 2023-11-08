@@ -10,27 +10,41 @@
 	text-transform: uppercase;
 	height: spacing(20);
 	background-color: transparent;
+}
 
-	@include respond-to("tablet") {
-		.navBarLogo {
-			display: none;
-		}
+@include respond-to("tablet") {
+	.navBarLinks {
+		display: none;
+	}
+	.hamburgerMenu {
+		display: block;
 	}
 }
 
 .navBarLogo {
 	font-weight: 300;
 	font-style: normal;
-	span {
-		font-style: bold;
+
+	.thick {
+		font-weight: bold;
 	}
 }
+
 .navBarLinks {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: $spacing-xxl;
 }
+
 .logoBold {
 	font-weight: 700;
+}
+
+.hamburgerMenu {
+	display: none;
+}
+
+.show {
+	display: block;
 }
