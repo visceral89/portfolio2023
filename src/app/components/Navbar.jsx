@@ -22,8 +22,6 @@ const Navbar = () => {
 				</div>
 			</Link>
 			<div className={styles.hamburgerMenu} onClick={toggleMenu}>
-				{" "}
-				{/* Removed quotes */}
 				<MenuIcon />
 			</div>
 			<div className={`${styles.navBarLinks} ${isOpen ? styles.show : ""}`}>
