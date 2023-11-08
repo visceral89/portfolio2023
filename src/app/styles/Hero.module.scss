@@ -5,7 +5,7 @@
 	background-color: $color-bg;
 	z-index: 1;
 	width: 100vw;
-	height: 700px;
+	height: calc(100vh - 80px);
 	/*
 	&::before {
 		content: "";

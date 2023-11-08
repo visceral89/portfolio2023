@@ -36,6 +36,9 @@
 	align-items: center;
 	gap: $spacing-xxl;
 }
+.navBarPages {
+	@extend .navBarLinks;
+}
 
 .logoBold {
 	font-weight: 700;
