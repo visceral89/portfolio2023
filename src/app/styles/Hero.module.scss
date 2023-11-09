@@ -7,6 +7,9 @@
 	width: 100vw;
 	height: calc(100vh - 80px);
 
+	padding-left: $spacing-grande;
+	padding-right: $spacing-grande;
+
 	display: flex;
 	flex-direction: row;
 	flex-grow: 1;
@@ -29,11 +32,11 @@
 .titleText {
 	z-index: 2;
 	width: 50%;
-
+	gap: $spacing-lg;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	justify-content: flex-start;
+	align-items: flex-start;
 }
 
 .titleImage {
@@ -45,4 +48,11 @@
 	background-color: $color-accent;
 	padding-left: 1rem;
 	padding-right: 1rem;
+}
+
+.contactButton {
+	padding: 8px $font-size-md 8px $font-size-md;
+	color: $color-accent;
+	border: 3px solid $color-accent;
+	text-transform: uppercase;
 }
