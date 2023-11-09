@@ -10,7 +10,7 @@ const Hero = () => {
 				<h1>Rasmus Bremholm Portfolio</h1>
 				<p>
 					Hi, welcome to my portfolio website! Im a frontend developer from
-					Gothenburg Sweden. Some people call me The Jack of All trades, and
+					Göteborg, Sweden. Some people call me The Jack of All trades, and
 					master of some. I love to create, and here you will get a taste of
 					what I love to make!
 				</p>
