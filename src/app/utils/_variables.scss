@@ -4,7 +4,7 @@
 $color-text: #f2f2f2;
 $color-bg: #242528;
 $color-highlight: #2b2c2f;
-$color-accent: #ff6347;
+$color-accent: rgb(255, 99, 71);
 
 // Noise
 $noise-opacity: 0.02;
@@ -55,3 +55,4 @@ $spacing-lg: spacing(6); // 24px
 $spacing-xl: spacing(8); // 32px
 $spacing-xxl: spacing(12); // 48px
 $spacing-grande: spacing(20); // 80px
+$spacing-elite: spacing(40); // 80px

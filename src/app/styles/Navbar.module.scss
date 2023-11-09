@@ -3,10 +3,10 @@
 
 .navBar {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
-	padding-left: spacing(20);
-	padding-right: spacing(20);
+	padding-left: $spacing-grande;
+	padding-right: $spacing-grande;
 	text-transform: uppercase;
 	height: spacing(20);
 	background-color: transparent;
