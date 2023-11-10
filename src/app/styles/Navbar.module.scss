@@ -2,11 +2,6 @@
 @import "../utils/mixins";
 
 .navBar {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding-left: $spacing-grande;
-	padding-right: $spacing-grande;
 	text-transform: uppercase;
 	height: spacing(20);
 	background-color: transparent;
@@ -31,10 +26,6 @@
 }
 
 .navBarLinks {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: $spacing-xxl;
 }
 .navBarPages {
 	@extend .navBarLinks;

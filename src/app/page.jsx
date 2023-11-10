@@ -1,4 +1,4 @@
-import styles from "./page.module.css";
+import styles from "./styles/Page.module.scss";
 import Hero from "./components/sections/Hero";
 
 export default function Home() {
