@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
 			<body className={jet.className}>
 				<div className={styles.gridContainer}>
 					<Navbar />
+					{/*Refactoring Starts*/}
 					{children}
 				</div>
 			</body>
