@@ -5,6 +5,7 @@
 	text-transform: uppercase;
 	height: spacing(20);
 	background-color: transparent;
+	grid-column: 1 / -1;
 }
 
 @include respond-to("tablet") {
