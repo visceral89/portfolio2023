@@ -5,7 +5,16 @@
 	text-transform: uppercase;
 	height: spacing(20);
 	background-color: transparent;
-	grid-column: 1 / -1;
+	display: flex;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+.gridContainer {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+
+	width: 100%;
 }
 
 @include respond-to("tablet") {

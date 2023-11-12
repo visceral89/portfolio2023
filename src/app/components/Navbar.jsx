@@ -14,25 +14,27 @@ const Navbar = () => {
 
 	return (
 		<nav className={styles.navBar}>
-			<Link href='/'>
-				<div className={styles.navBarLogo}>
-					<h1>
-						<span className={styles.thick}>Rasmus </span>Bremholm
-					</h1>
+			<div className={styles.gridContainer}>
+				<Link href='/'>
+					<div className={styles.navBarLogo}>
+						<h1>
+							<span className={styles.thick}>Rasmus </span>Bremholm
+						</h1>
+					</div>
+				</Link>
+				<div className={styles.hamburgerMenu} onClick={toggleMenu}>
+					<MenuIcon />
 				</div>
-			</Link>
-			<div className={styles.hamburgerMenu} onClick={toggleMenu}>
-				<MenuIcon />
-			</div>
-			<div className={`${styles.navBarPages} ${isOpen ? styles.show : ""}`}>
-				<Link href='/3d'>3D</Link>
-				<Link href='/blog'>blog</Link>
-				<Link href='/webdev'>frontend</Link>
-			</div>
-			<div className={styles.navBarLinks}>
-				<Link href='/about'>about</Link>
-				<Link href='/resume'>resume</Link>
-				<Link href='/contact'>contact</Link>
+				<div className={`${styles.navBarPages} ${isOpen ? styles.show : ""}`}>
+					<Link href='/3d'>3D</Link>
+					<Link href='/blog'>blog</Link>
+					<Link href='/webdev'>frontend</Link>
+				</div>
+				<div className={styles.navBarLinks}>
+					<Link href='/about'>about</Link>
+					<Link href='/resume'>resume</Link>
+					<Link href='/contact'>contact</Link>
+				</div>
 			</div>
 		</nav>
 	);

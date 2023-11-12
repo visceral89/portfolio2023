@@ -1,6 +1,6 @@
 .gridContainer {
 	display: grid;
-	grid-template-columns: 1fr auto 1fr;
+	grid-template-columns: repeat(3 1fr);
 	grid-template-rows: 1fr auto;
 	justify-content: stretch;
 }
