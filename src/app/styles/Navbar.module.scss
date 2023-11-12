@@ -6,8 +6,8 @@
 	height: spacing(20);
 	background-color: transparent;
 	display: flex;
-	margin-left: 150px;
-	margin-right: 150px;
+	margin-left: $spacing-gutter;
+	margin-right: $spacing-gutter;
 }
 
 .gridContainer {
@@ -29,6 +29,10 @@
 .navBarLogo {
 	font-weight: 300;
 	font-style: normal;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 100%;
 
 	.thick {
 		font-weight: bold;
@@ -36,6 +40,11 @@
 }
 
 .navBarLinks {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+	width: 100%;
 }
 .navBarPages {
 	@extend .navBarLinks;
