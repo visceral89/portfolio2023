@@ -7,7 +7,7 @@ const Hero = () => {
 		<section className={styles.heroSection}>
 			<div className={styles.titleText}>
 				<div className={styles.accent}>Frontend Developer</div>
-				<h1>Rasmus Bremholm Portfolio</h1>
+				<h1 className={styles.titleHeading}>Rasmus Bremholm Portfolio</h1>
 				<p>
 					Hi, welcome to my portfolio website! Im a frontend developer from
 					Göteborg, Sweden. Some people call me The Jack of All trades, and
