@@ -40,8 +40,10 @@
 		font-size: 2.5rem;
 	}
 }
-.social {
-	margin-right: 1rem;
+.titleLinks {
+	display: flex;
+	flex-direction: row;
+	gap: $spacing-lg;
 	text-transform: uppercase;
 }
 
