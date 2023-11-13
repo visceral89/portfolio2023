@@ -8,17 +8,17 @@ export const socials = [
 	{
 		id: "artstation",
 		text: "Artstation",
-		url: "",
+		url: "https://www.artstation.com/visceral3d",
 	},
 	{
-		id: "linkdin",
-		text: "Linkdin",
-		url: "",
+		id: "linkedin",
+		text: "Linkedin",
+		url: "https://www.linkedin.com/in/rasmus-bremholm/",
 	},
 	{
 		id: "github",
 		text: "Github",
-		url: "",
+		url: "https://github.com/Visceral89",
 	},
 ];
 export const techStack = [
