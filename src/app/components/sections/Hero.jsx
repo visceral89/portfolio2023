@@ -11,9 +11,15 @@ const Hero = () => {
 				<h1 className={styles.titleHeading}>Rasmus Bremholm Portfolio</h1>
 				<div className={styles.titleLinks}>
 					{socials.map((social) => (
-						<Link key={social.id} href={social.url} className={styles.social}>
+						<a
+							key={social.id}
+							href={social.url}
+							target='_blank'
+							rel='noopener noreferrer'
+							className={styles.socialLink}
+						>
 							{social.text}
-						</Link>
+						</a>
 					))}
 				</div>
 				<p>
