@@ -4,6 +4,23 @@ export const titleText = [
 		text: "Frontend Developer",
 	},
 ];
+export const socials = [
+	{
+		id: "artstation",
+		text: "Artstation",
+		url: "",
+	},
+	{
+		id: "linkdin",
+		text: "Linkdin",
+		url: "",
+	},
+	{
+		id: "github",
+		text: "Github",
+		url: "",
+	},
+];
 export const techStack = [
 	{
 		id: "next",
