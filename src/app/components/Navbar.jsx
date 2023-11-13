@@ -26,9 +26,9 @@ const Navbar = () => {
 					<MenuIcon />
 				</div>
 				<div className={`${styles.navBarPages} ${isOpen ? styles.show : ""}`}>
-					<Link href='/3d'>3D</Link>
-					<Link href='/blog'>blog</Link>
 					<Link href='/webdev'>frontend</Link>
+					<Link href='/blog'>blog</Link>
+					<Link href='/3d'>3D</Link>
 				</div>
 				<div className={styles.navBarLinks}>
 					<Link href='/about'>about</Link>
