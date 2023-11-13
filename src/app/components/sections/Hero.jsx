@@ -33,12 +33,7 @@ const Hero = () => {
 				</Link>
 			</div>
 			<div className={styles.titleImage}>
-				{/* <Image
-					src='/guy_half.png'
-					width={800}
-					height={800}
-					alt='rasmus bremholm'
-				/>*/}
+				<Image src='/flow.png' width={650} height={660} alt='flow graphic' />
 			</div>
 		</section>
 	);
