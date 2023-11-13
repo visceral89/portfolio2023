@@ -1,9 +1,3 @@
-export const titleText = [
-	{
-		id: "titleRole",
-		text: "Frontend Developer",
-	},
-];
 export const socials = [
 	{
 		id: "artstation",
@@ -46,5 +40,26 @@ export const techStack = [
 		id: "fusion",
 		text: "Fusion 360",
 		imgUrl: "/fusion.png",
+	},
+];
+
+export const skills = [
+	{
+		id: "frontend",
+		text: "Frontend development is fun",
+		title: "Frontend",
+		icon: " ",
+	},
+	{
+		id: "teacher",
+		text: "Teaching Programming, webdevelopment and 3D modelling",
+		title: "Teaching",
+		icon: " ",
+	},
+	{
+		id: "3d",
+		text: "3D modeller with experience in Blender 3D and Unreal Engine 5",
+		title: "3D Artist",
+		icon: " ",
 	},
 ];
