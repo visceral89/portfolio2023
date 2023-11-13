@@ -13,7 +13,7 @@ export default function Skills() {
 			</div>
 			<div className={styles.skillsCardContainer}>
 				{skills.map((skill) => (
-					<div key={skill.id}>
+					<div className={styles.skillCard} key={skill.id}>
 						<Image src={skills.icon} height={32} width={32} alt={skill.id} />
 						<h3>{skills.title}</h3>
 						<p>{skills.text}</p>
