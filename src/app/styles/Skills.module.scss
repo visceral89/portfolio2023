@@ -1,7 +1,31 @@
+@import "../utils/variables";
+
 .skillsSection {
+	height: calc(100vh - 80px);
+	grid-column: 1 / -1;
+	z-index: 1;
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-image: url("../../../public/noise.png");
+		background-repeat: repeat;
+		opacity: $noise-opacity;
+		z-index: -1;
+	}
 }
 .skillsText {
 	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: $spacing-xxl;
+	text-align: center;
+	padding-right: $spacing-elite;
+	padding-left: $spacing-elite;
 	h2 {
 	}
 }

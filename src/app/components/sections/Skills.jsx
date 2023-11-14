@@ -1,5 +1,5 @@
 import styles from "@/styles/Skills.module.scss";
-import { skills } from "@/utils/index.js";
+import { skills } from "@/constants/index.js";
 import Image from "next/image";
 
 export default function Skills() {
