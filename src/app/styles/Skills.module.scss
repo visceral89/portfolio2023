@@ -2,6 +2,7 @@
 
 .skillsSection {
 	height: calc(100vh - 80px);
+	background-color: $color-bg-brighter;
 	grid-column: 1 / -1;
 	z-index: 1;
 	position: relative;

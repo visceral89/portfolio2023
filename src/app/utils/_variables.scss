@@ -3,12 +3,13 @@
 // Main Colors
 $color-text: #f2f2f2;
 $color-bg: #0f1011;
+$color-bg-brighter: lighten($color-bg, 5%);
 $color-highlight: #2b2c2f;
 $color-accent: rgb(255, 99, 71);
 
 // Noise
 //$noise-opacity: 0.02;
-$noise-opacity: 0.02;
+$noise-opacity: 0.03;
 
 // Color Alias
 $color-primary: $color-text;
