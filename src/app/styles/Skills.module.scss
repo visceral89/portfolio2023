@@ -4,6 +4,10 @@
 	height: calc(100vh - 80px);
 	background-color: $color-bg-brighter;
 	grid-column: 1 / -1;
+	display: grid;
+	grid-template-columns: repeat(3 1fr);
+	grid-template-rows: 1fr auto;
+	justify-content: stretch;
 	z-index: 1;
 	position: relative;
 	&::before {
@@ -20,14 +24,16 @@
 	}
 }
 .skillsText {
+	width: 50%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-top: $spacing-xxl;
+	padding-top: $spacing-elite;
 	text-align: center;
 	padding-right: $spacing-elite;
 	padding-left: $spacing-elite;
 	h2 {
+		font-size: 2.5rem;
 	}
 }
 
