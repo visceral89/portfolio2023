@@ -5,6 +5,7 @@ import styles from "@/styles/Navbar.module.scss";
 import { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 
+
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
 

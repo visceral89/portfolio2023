@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { socials } from "@/constants/index.js";
 
+
 const Hero = () => {
 	return (
 		<section className={styles.heroSection}>
