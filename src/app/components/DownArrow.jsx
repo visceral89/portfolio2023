@@ -1,9 +1,10 @@
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import styles from "@/styles/ComponentStyles/DownArrow.module.scss";
 
 const DownArrow = () => {
 	return (
-		<div>
-			<KeyboardArrowDownIcon />
+		<div className={styles.downArrowContainer}>
+			<KeyboardArrowDownIcon fontSize='large' />
 		</div>
 	);
 };

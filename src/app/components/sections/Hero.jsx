@@ -2,7 +2,7 @@ import styles from "@/styles/Hero.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 import { socials } from "@/constants/index.js";
-
+import DownArrow from "@/components/DownArrow.jsx";
 
 const Hero = () => {
 	return (
@@ -36,6 +36,7 @@ const Hero = () => {
 			<div className={styles.titleImage}>
 				{/* <Image src='/flow.png' width={650} height={660} alt='flow graphic' />*/}
 			</div>
+			<DownArrow />
 		</section>
 	);
 };
