@@ -2,6 +2,7 @@ import styles from "@/styles/Hero.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 import { socials } from "@/constants/index.js";
+
 import DownArrow from "@/components/DownArrow.jsx";
 
 const Hero = () => {
