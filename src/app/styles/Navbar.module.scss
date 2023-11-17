@@ -13,43 +13,7 @@
 .gridContainer {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-
 	width: 100%;
-}
-
-@include respond-to("tablet") {
-	.navBarLinks {
-		display: none;
-	}
-	.hamburgerMenu {
-		display: block;
-	}
-
-	.navBarLinks,
-	.navBarPages {
-		position: absolute;
-		top: 100%;
-		left: 0;
-		right: 0;
-		display: none;
-		flex-direction: column;
-		padding-top: $spacing-md;
-	}
-	.show {
-		display: flex;
-		animation: slideDown 0.3s ease-in-out;
-	}
-
-	@keyframes slideDown {
-		from {
-			transform: translateY(10%);
-			opacity: 0;
-		}
-		to {
-			transform: translateY(0);
-			opacity: 1;
-		}
-	}
 }
 
 .navBarLogo {
@@ -59,10 +23,6 @@
 	justify-content: flex-start;
 	align-items: center;
 	height: 100%;
-
-	.thick {
-		font-weight: bold;
-	}
 }
 
 .navBarLinks {
@@ -78,12 +38,4 @@
 
 .logoBold {
 	font-weight: 700;
-}
-
-.hamburgerMenu {
-	display: none;
-}
-
-.show {
-	display: block;
 }
