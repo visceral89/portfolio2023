@@ -14,9 +14,9 @@ export default function Skills() {
 			<div className={styles.skillsCardContainer}>
 				{skills.map((skill) => (
 					<div className={styles.skillCard} key={skill.id}>
-						<Image src={skills.icon} height={32} width={32} alt={skill.id} />
-						<h3>{skills.title}</h3>
-						<p>{skills.text}</p>
+						<Image src={skill.icon} height={32} width={32} alt={skill.id} />
+						<h3>{skill.title}</h3>
+						<p>{skill.text}</p>
 					</div>
 				))}
 			</div>

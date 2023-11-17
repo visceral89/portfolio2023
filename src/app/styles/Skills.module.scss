@@ -1,12 +1,12 @@
 @import "../utils/variables";
 
 .skillsSection {
-	height: calc(100vh - 80px);
+	height: 100vh;
 	background-color: $color-bg-brighter;
 	grid-column: 1 / -1;
 	display: grid;
-	grid-template-columns: repeat(3 1fr);
-	//grid-template-rows: 1fr auto;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr auto;
 	justify-content: stretch;
 	z-index: 1;
 	position: relative;
@@ -25,8 +25,9 @@
 }
 .skillsText {
 	grid-column: span 4;
+	grid-column-start: 2;
 	width: 100%;
-	padding-top: $spacing-elite;
+	padding-top: $spacing-xxl;
 	text-align: center;
 	padding-right: $spacing-elite;
 	padding-left: $spacing-elite;
@@ -37,9 +38,20 @@
 
 .skillsCardContainer {
 	display: grid;
-	grid-template-columns: repeat(5 1fr);
+	grid-row-start: 2;
+	grid-column: span 3;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: auto;
+	align-content: stretch;
+	margin-bottom: $spacing-xxl;
 }
 .skillCard {
+	height: 300px;
+	grid-column-start: 1;
+	grid-column: span 1;
+	grid-row-end: 1;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
 }

@@ -48,18 +48,18 @@ export const skills = [
 		id: "frontend",
 		text: "Frontend development is fun",
 		title: "Frontend",
-		icon: " ",
+		icon: "/code.svg",
 	},
 	{
 		id: "teacher",
 		text: "Teaching Programming, webdevelopment and 3D modelling",
 		title: "Teaching",
-		icon: " ",
+		icon: "/education.svg",
 	},
 	{
 		id: "3d",
-		text: "3D modeller with experience in Blender 3D and Unreal Engine 5",
+		text: "3D artist with experience in Blender 3D and Unreal Engine 5",
 		title: "3D Artist",
-		icon: " ",
+		icon: "/3d.svg",
 	},
 ];
