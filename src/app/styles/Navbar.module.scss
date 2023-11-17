@@ -24,6 +24,32 @@
 	.hamburgerMenu {
 		display: block;
 	}
+
+	.navBarLinks,
+	.navBarPages {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		display: none;
+		flex-direction: column;
+		padding-top: $spacing-md;
+	}
+	.show {
+		display: flex;
+		animation: slideDown 0.3s ease-in-out;
+	}
+
+	@keyframes slideDown {
+		from {
+			transform: translateY(10%);
+			opacity: 0;
+		}
+		to {
+			transform: translateY(0);
+			opacity: 1;
+		}
+	}
 }
 
 .navBarLogo {
