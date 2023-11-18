@@ -1,6 +1,7 @@
 import styles from "@/styles/Skills.module.scss";
 import { skills } from "@/constants/index.js";
 import Image from "next/image";
+import DownArrow from "@/components/DownArrow.jsx";
 
 export default function Skills() {
 	return (
@@ -20,6 +21,8 @@ export default function Skills() {
 					</div>
 				))}
 			</div>
+
+			<DownArrow />
 		</section>
 	);
 }
