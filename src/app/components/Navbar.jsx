@@ -12,12 +12,6 @@ const Navbar = () => {
 		setIsOpen(!isOpen);
 	};
 
-	document.addEventListener("click", (event) => {
-		if (!event.target.closest(".navBar")) {
-			setIsOpen(false); // Assuming setIsOpen is your state setter
-		}
-	});
-
 	return (
 		<nav className={styles.navBar}>
 			<div className={styles.gridContainer}>

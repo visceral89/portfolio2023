@@ -51,10 +51,10 @@ export const skills = [
 		icon: "/code.svg",
 	},
 	{
-		id: "teacher",
-		text: "Teaching Programming, webdevelopment and 3D modelling",
-		title: "Teaching",
-		icon: "/education.svg",
+		id: "SEO",
+		text: "SEO GOOD I AM VERY SPECIAL",
+		title: "SEO",
+		icon: "/seo.svg",
 	},
 	{
 		id: "3d",
