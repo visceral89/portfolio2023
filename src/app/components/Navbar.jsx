@@ -25,7 +25,7 @@ const Navbar = () => {
 				<div className={styles.hamburgerMenu} onClick={toggleMenu}>
 					<MenuIcon />
 				</div>
-				<div className={`${styles.navBarPages} ${isOpen ? styles.show : ""}`}>
+				<div className={styles.navBarPages}>
 					<Link href='/webdev'>frontend</Link>
 					<Link href='/blog'>blog</Link>
 					<Link href='/3d'>3D</Link>

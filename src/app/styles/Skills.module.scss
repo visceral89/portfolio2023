@@ -3,7 +3,7 @@
 .skillsSection {
 	height: 100vh;
 	background-color: $color-bg-brighter;
-
+	display: flex;
 	z-index: 1;
 	position: relative;
 	&::before {
@@ -19,11 +19,19 @@
 		z-index: -1;
 	}
 }
+.skillsSectionContent {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+	margin-left: $spacing-gutter;
+	margin-right: $spacing-gutter;
+}
+
 .skillsText {
-	padding-top: $spacing-xxl;
 	text-align: center;
-	padding-right: $spacing-elite;
-	padding-left: $spacing-elite;
+
+	margin-left: $spacing-elite;
 	h2 {
 		font-size: 2.5rem;
 	}
@@ -31,16 +39,16 @@
 
 .skillsCardContainer {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	gap: $spacing-md;
-	margin-bottom: $spacing-xxl;
 }
 .skillCard {
-	height: 300px;
-	width: 300px;
 	background-color: $color-highlight;
+	width: 700px;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: space-around;
+	padding: 2rem;
 }
