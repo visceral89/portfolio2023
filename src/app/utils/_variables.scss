@@ -29,6 +29,12 @@ $font-size-md: 1rem; // 16px
 $font-size-lg: 2rem; // 32px
 $font-size-xl: 3rem; // 48px
 
+@function lineHeight($font-size){
+	@return $font-size * 1.25;
+}
+
+$line-height: 
+
 // Font Weights
 $font-weight-light: 300;
 $font-weight-regular: 400;
