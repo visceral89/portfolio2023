@@ -11,9 +11,11 @@ export default function Skills() {
 			<div className={styles.skillsSectionContent}>
 				<div className={styles.skillsText}>
 					<h2>Skills</h2>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus
-					porro autem harum placeat dicta molestias. Cum tempora maxime soluta
-					molestiae?
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus
+						porro autem harum placeat dicta molestias. Cum tempora maxime soluta
+						molestiae?
+					</p>
 				</div>
 				<div className={styles.skillsCardContainer}>
 					{skills.map((skill) => (
