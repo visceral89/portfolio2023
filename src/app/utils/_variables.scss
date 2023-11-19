@@ -29,11 +29,15 @@ $font-size-md: 1rem; // 16px
 $font-size-lg: 2rem; // 32px
 $font-size-xl: 3rem; // 48px
 
-@function lineHeight($font-size){
+@function lineHeight($font-size) {
 	@return $font-size * 1.25;
 }
 
-$line-height: 
+$line-height-base: lineHeight($font-size-base);
+$line-height-sm: lineHeight($font-size-sm);
+$line-height-md: lineHeight($font-size-md);
+$line-height-lg: lineHeight($font-size-lg);
+$line-height-xl: lineHeight($font-size-xl);
 
 // Font Weights
 $font-weight-light: 300;
