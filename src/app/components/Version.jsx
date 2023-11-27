@@ -3,7 +3,7 @@ import packageInfo from "../../package.json";
 const Version = () => {
 	return (
 		<div>
-			<p>Version: {packageInfo.Version}</p>
+			<p>Version: {packageInfo.version}</p>
 		</div>
 	);
 };
