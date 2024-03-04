@@ -20,9 +20,15 @@ export default async function Page() {
 	console.log(data);
 	return (
 		<div>
-			{data.map(post, idx) =>{
-				<BlogCard key={idx}/>
-			}}
+			{data.map((post, idx) => (
+				<BlogCard
+					key={idx}
+					title={post.title}
+					smallDescription={post.smallDescription}
+					titleImage={post.titleImage}
+					currentSlug={post.currentSlug}
+				/>
+			))}
 		</div>
 	);
 }
