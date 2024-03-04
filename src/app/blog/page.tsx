@@ -1,3 +1,5 @@
+import BlogCard from "../components/BlogCard";
+import { blogCard } from "../lib/interface";
 import { client } from "../lib/sanity";
 
 async function getPosts() {
@@ -13,8 +15,14 @@ async function getPosts() {
 }
 
 export default async function Page() {
-	const data = await getPosts();
+	const data: blogCard[] = await getPosts();
 
 	console.log(data);
-	return <h1>Blog Page Works</h1>;
+	return (
+		<div>
+			{data.map(post, idx) =>{
+				<BlogCard key={idx}/>
+			}}
+		</div>
+	);
 }
