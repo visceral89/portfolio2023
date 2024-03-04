@@ -1,9 +1,9 @@
-import styles from "@/styles/Hero.module.scss";
+import styles from "../../styles/Hero.module.scss";
 import Image from "next/image";
 import Link from "next/link";
-import { socials } from "@/constants/index.js";
+import { socials } from "../../constants/index";
 
-import DownArrow from "@/components/DownArrow.jsx";
+import DownArrow from "../../components/DownArrow";
 
 const Hero = () => {
 	return (

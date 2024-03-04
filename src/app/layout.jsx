@@ -1,7 +1,7 @@
 import "./globals.scss";
 import { JetBrains_Mono } from "next/font/google";
-import Navbar from "@/components/Navbar";
-import styles from "@/styles/Layout.module.scss";
+import Navbar from "./components/Navbar";
+import styles from "./styles/Layout.module.scss";
 
 const jet = JetBrains_Mono({ subsets: ["latin"] });
 

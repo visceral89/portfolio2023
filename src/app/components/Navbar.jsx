@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import styles from "@/styles/Navbar.module.scss";
+import styles from "../styles/Navbar.module.scss";
 import { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 

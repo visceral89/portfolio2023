@@ -1,5 +1,5 @@
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-import styles from "@/styles/ComponentStyles/DownArrow.module.scss";
+import styles from "../styles/ComponentStyles/DownArrow.module.scss";
 
 const DownArrow = () => {
 	return (

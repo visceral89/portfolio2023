@@ -1,8 +1,8 @@
 "use client";
-import styles from "@/styles/Skills.module.scss";
-import { skills } from "@/constants/index.js";
+import styles from "../../styles/Skills.module.scss";
+import { skills } from "../../constants/index";
 import Image from "next/image";
-import DownArrow from "@/components/DownArrow.jsx";
+import DownArrow from "../../components/DownArrow";
 import { useState, useEffect } from "react";
 
 export default function Skills() {
