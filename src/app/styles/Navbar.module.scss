@@ -6,15 +6,16 @@
 	height: spacing(20);
 	background-color: transparent;
 	display: flex;
-	margin-left: $spacing-gutter;
-	margin-right: $spacing-gutter;
+	width: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 .gridContainer {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 	width: 100%;
-	height: 100%;
 }
 
 .navBarLogo {
@@ -23,15 +24,18 @@
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	height: 100%;
+}
+
+.hamburgerMenu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .navBarLinks {
 	display: none;
 	justify-content: space-around;
 	align-items: center;
-	height: 100%;
-	width: 100%;
 }
 .navBarPages {
 	@extend .navBarLinks;
