@@ -16,26 +16,24 @@ const Navbar = () => {
 
 	return (
 		<nav className={styles.navBar}>
-			<div className={styles.gridContainer}>
-				<Link href='/'>
-					<div className={styles.navBarLogo}>
-						<h1>
-							<span className={styles.thick}>Rasmus </span>Bremholm
-						</h1>
-					</div>
-				</Link>
-				{mobile ? (
-					<div className={styles.hamburgerMenu} onClick={toggleMenu}>
-						<MenuIcon />
-					</div>
-				) : (
-					<div className={styles.navBarPages}>
-						<Link href='/webdev'>frontend</Link>
-						<Link href='/blog'>blog</Link>
-						<Link href='/3d'>3D</Link>
-					</div>
-				)}
-			</div>
+			<Link href='/'>
+				<div className={styles.navBarLogo}>
+					<h1>
+						<span className={styles.thick}>Rasmus </span>Bremholm
+					</h1>
+				</div>
+			</Link>
+			{mobile ? (
+				<div className={styles.hamburgerMenu} onClick={toggleMenu}>
+					<MenuIcon />
+				</div>
+			) : (
+				<div className={styles.navBarPages}>
+					<Link href='/webdev'>frontend</Link>
+					<Link href='/blog'>blog</Link>
+					<Link href='/3d'>3D</Link>
+				</div>
+			)}
 		</nav>
 	);
 };
