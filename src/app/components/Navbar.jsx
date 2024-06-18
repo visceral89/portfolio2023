@@ -13,7 +13,7 @@ const Navbar = () => {
 			</Link>
 
 			<div className={styles.navBarPages}>
-				<Link href='/webdev'>frontend</Link>
+				<Link href='/webdev'>projects</Link>
 				<Link href='/blog'>blog</Link>
 				<Link href='/3d'>3D</Link>
 			</div>

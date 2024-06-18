@@ -1,4 +1,5 @@
 @import "../utils/variables";
+@import "../utils/mixins";
 
 .skillsSection {
 	height: 100vh;
@@ -26,6 +27,10 @@
 	align-items: center;
 	margin-left: $spacing-gutter;
 	margin-right: $spacing-gutter;
+	@include respond-to(phone) {
+		margin-left: $spacing-lg;
+		margin-right: $spacing-lg;
+	}
 }
 
 .skillsText {
@@ -52,4 +57,14 @@
 	justify-content: space-around;
 	gap: 0.5rem;
 	padding: 2rem;
+	h3 {
+		color: $color-accent;
+		transition-property: color;
+		transition-duration: 0.15s;
+		transition-timing-function: ease;
+
+		&:hover {
+			color: $color-text;
+		}
+	}
 }
