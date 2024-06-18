@@ -46,13 +46,13 @@ export const techStack = [
 export const skills = [
 	{
 		id: "frontend",
-		text: "Frontend development is fun",
+		text: "I love frontend development, especially using NextJS",
 		title: "Frontend",
 		icon: "/code.svg",
 	},
 	{
 		id: "SEO",
-		text: "SEO GOOD I AM VERY SPECIAL",
+		text: "Worked extensivly with SEO for one of Swedens largest ecommerce stores, both content SEO and analytics.",
 		title: "SEO",
 		icon: "/seo.svg",
 	},
