@@ -46,7 +46,7 @@ export const techStack = [
 export const skills = [
 	{
 		id: "frontend",
-		text: "I love frontend development, especially using NextJS",
+		text: "I love webdevelopment, both frontend and backend escpecially frameworks like NextJS, React but also backend using Supabase.",
 		title: "Frontend",
 		icon: "/code.svg",
 	},
@@ -58,7 +58,7 @@ export const skills = [
 	},
 	{
 		id: "3d",
-		text: "3D artist with experience in Blender 3D and Unreal Engine 5",
+		text: "3D Graphics has been my passion for a very long time, i have decades of experience working with Blender, Unreal Engine and Z-Brush.",
 		title: "3D Artist",
 		icon: "/3d.svg",
 	},

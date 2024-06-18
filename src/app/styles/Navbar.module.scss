@@ -6,8 +6,8 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	align-items: flex-start;
-	align-content: flex-start;
+	align-items: center;
+	align-content: space-around;
 	padding: 0px;
 }
 
@@ -26,7 +26,10 @@
 }
 
 .navBarLinks {
-	display: none;
+	display: flex;
+	gap: 2rem;
+	padding-right: 2rem;
+	padding-left: 10rem;
 	justify-content: space-around;
 	align-items: center;
 }
