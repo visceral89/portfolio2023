@@ -1,0 +1,22 @@
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	gap: 1rem;
+	height: 3rem;
+	width: 100%;
+	font-weight: 600;
+}
+
+.logo {
+	width: 100%;
+}
+
+.links {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: flex-end;
+	gap: 2rem;
+}
