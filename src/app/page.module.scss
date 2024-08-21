@@ -1,7 +1,7 @@
 @import "../styles/variables";
 
 .main {
-	height: 90svh;
+	height: calc(100svh - 5rem);
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -18,6 +18,6 @@
 }
 
 .cta {
-	padding: 2rem 4rem 2rem 4rem;
+	padding: 8px 16px 8px 16px;
 	border: 1px solid $border-color;
 }
