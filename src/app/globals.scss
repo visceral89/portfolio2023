@@ -18,6 +18,7 @@ body {
 
 body {
 	background-color: $background-color;
+	font-size: 16px;
 }
 
 h1 {
@@ -45,5 +46,6 @@ a {
 	}
 	&:hover {
 		color: $text-color-highlight;
+		transition: color 0.2s ease-in-out;
 	}
 }

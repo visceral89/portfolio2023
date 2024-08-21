@@ -1,0 +1,23 @@
+@import "../styles/variables";
+
+.main {
+	height: 90svh;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.ctaContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	height: 2rem;
+}
+
+.cta {
+	padding: 2rem 4rem 2rem 4rem;
+	border: 1px solid $border-color;
+}
