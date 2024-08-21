@@ -15,9 +15,20 @@
 	justify-content: flex-start;
 	align-items: center;
 	height: 2rem;
+	padding-top: 2rem;
+	gap: 2rem;
 }
 
 .cta {
-	padding: 8px 16px 8px 16px;
+	padding: 8px 32px 8px 32px;
 	border: 1px solid $border-color;
+	text-transform: uppercase;
+	font-weight: 700;
+	border-radius: 6px;
+	&:hover {
+		border: 1px solid $text-color;
+		color: $text-color-highlight;
+		transition: color 0.2s ease-in-out;
+		transition: border 0.2s ease-in-out;
+	}
 }

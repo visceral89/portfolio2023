@@ -1,4 +1,5 @@
 import styles from "./page.module.scss";
+import Link from "next/link";
 
 export default function Home() {
 	return (
@@ -7,8 +8,12 @@ export default function Home() {
 				<h1>Rasmus Bremholm</h1>
 				<h2>Frontend Developer</h2>
 				<div className={styles.ctaContainer}>
-					<div className={styles.cta}>contact</div>
-					<div className={styles.cta}>github</div>
+					<Link href={"/contact"}>
+						<div className={styles.cta}>contact</div>
+					</Link>
+					<Link href={"https://github.com/Visceral89"}>
+						<div className={styles.cta}>github</div>
+					</Link>
 				</div>
 			</div>
 		</main>
