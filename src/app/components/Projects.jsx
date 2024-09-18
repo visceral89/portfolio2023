@@ -41,12 +41,12 @@ export const Projects = () => {
 						<a href='https://github.com/Visceral89/portfolio2023'>Read more</a>
 					</div>
 				</article>
-				<div className={styles.viewMore}>
-					<p>View all my projects on my</p>
-					<a href='https://github.com/Visceral89'>
-						<IconGit />
-					</a>
-				</div>
+			</div>
+			<div className={styles.viewMore}>
+				<p>View all my projects on my</p>
+				<a href='https://github.com/Visceral89'>
+					<IconGit />
+				</a>
 			</div>
 		</>
 	);
