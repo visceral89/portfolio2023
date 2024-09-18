@@ -1,11 +1,12 @@
 import styles from "./Projects.module.scss";
 import Image from "next/image";
 import Link from "next/link";
+import { IconGit } from "./Icons";
 
 export const Projects = () => {
 	return (
 		<>
-			<h2>Recent Projects</h2>
+			<h2 id='projects'>Recent Projects</h2>
 			<div className={styles.wrapper}>
 				<article className={styles.projectCard}>
 					<Image src='/placeholder_650w.png' width={650} height={650} alt='project image 1' />
@@ -40,6 +41,12 @@ export const Projects = () => {
 						<a href='https://github.com/Visceral89/portfolio2023'>Read more</a>
 					</div>
 				</article>
+				<div className={styles.viewMore}>
+					<p>View all my projects on my</p>
+					<a href='https://github.com/Visceral89'>
+						<IconGit />
+					</a>
+				</div>
 			</div>
 		</>
 	);

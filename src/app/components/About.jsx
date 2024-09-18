@@ -21,7 +21,7 @@ import {
 export const About = () => {
 	return (
 		<>
-			<h2>About Me</h2>
+			<h2 id='about'>About Me</h2>
 			<div className={styles.aboutContent}>
 				<h3 className={styles.span}>A bit about me</h3>
 				<p>
