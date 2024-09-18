@@ -1,4 +1,5 @@
 import styles from "./About.module.scss";
+import { IconNextJS, IconThreeJS } from "./Icons";
 
 export const About = () => {
 	return (
@@ -15,10 +16,33 @@ export const About = () => {
 				</p>
 				<p>
 					In my freetime I experiment with new technologies and use the 3D models I create to make
-					games. Please feel free to check out my Github to get a sense of what im working on
-					currently.
+					games. Please feel free to check out my
+					<a href=''>
+						<span className={styles.span}> Github </span>
+					</a>
+					to get a sense of what im working on currently.
 				</p>
 				<h3>Technologies I love</h3>
+				<div className={styles.techGrid}>
+					<IconNextJS />
+					<IconThreeJS />
+					<div className={styles.gridItem}>Javascript</div>
+					<div className={styles.gridItem}>Vue</div>
+					<div className={styles.gridItem}>Angular</div>
+					<div className={styles.gridItem}>NodeJS</div>
+					<div className={styles.gridItem}>Supabase</div>
+					<div className={styles.gridItem}>PostgreSQL</div>
+					<div className={styles.gridItem}>SASS</div>
+					<div className={styles.gridItem}>Tailwind</div>
+					<div className={styles.gridItem}>Vercel</div>
+					<div className={styles.gridItem}>Express</div>
+					<div className={styles.gridItem}>Blender</div>
+					<div className={styles.gridItem}>Python</div>
+					<div className={styles.gridItem}>Git</div>
+					<div className={styles.gridItem}>Figma</div>
+					<div className={styles.gridItem}>React</div>
+					<div className={styles.gridItem}>HTML 5</div>
+				</div>
 			</div>
 		</>
 	);
