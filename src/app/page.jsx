@@ -1,12 +1,21 @@
 import styles from "./page.module.scss";
 import Link from "next/link";
+import { Typewriter } from "nextjs-simple-typewriter";
+import { About } from "./components/About";
 
 export default function Home() {
 	return (
 		<main className={styles.main}>
-			<div className={styles.title}>
+			<header className={styles.title}>
 				<h1>Rasmus Bremholm</h1>
-				<h2>Frontend Developer</h2>
+				<h2>
+					<div className={styles.typeWriter}>
+						<Typewriter
+							deleteSpeed={10}
+							words={["Frontend Developer", "Educator", "3D-Artist", "Frontend Developer"]}
+						/>
+					</div>
+				</h2>
 				<div className={styles.ctaContainer}>
 					<Link href={"/contact"}>
 						<div className={styles.cta}>contact</div>
@@ -15,7 +24,16 @@ export default function Home() {
 						<div className={styles.cta}>github</div>
 					</Link>
 				</div>
-			</div>
+				<div className={styles.tagline}>
+					<p>
+						I'm a Frontend / Fullstack Developer living in Göteborg,Sweden with a passion for Web
+						Technologies, 3D Design & E-commerce.
+					</p>
+				</div>
+			</header>
+			<section className={styles.about}>
+				<About />
+			</section>
 		</main>
 	);
 }

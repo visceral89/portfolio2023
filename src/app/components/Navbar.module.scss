@@ -1,11 +1,12 @@
 @import "../../styles/variables";
+@import "../../styles/breakpoints";
 
 .navbar {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	gap: 1rem;
+	gap: $gutter-padding-s;
 	min-height: 4rem;
 	width: 100%;
 	font-weight: 600;
@@ -15,6 +16,7 @@
 
 .logo {
 	width: 100%;
+	padding-left: $gutter-padding-s;
 }
 
 .links {
@@ -23,4 +25,31 @@
 	flex-direction: row;
 	justify-content: flex-end;
 	gap: 2rem;
+	padding-right: $gutter-padding-s;
+}
+
+@include m {
+	.logo {
+		padding-left: $gutter-padding-m;
+	}
+	.links {
+		padding-right: $gutter-padding-m;
+	}
+}
+
+@include l {
+	.logo {
+		padding-left: $gutter-padding-l;
+	}
+	.links {
+		padding-right: $gutter-padding-l;
+	}
+}
+@include xl {
+	.logo {
+		padding-left: $gutter-padding-xl;
+	}
+	.links {
+		padding-right: $gutter-padding-xl;
+	}
 }

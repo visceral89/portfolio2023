@@ -1,12 +1,29 @@
 @import "../styles/variables";
+@import "../styles/breakpoints";
 
 .main {
-	height: calc(100svh - 5rem);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.title {
+	min-height: 100svh;
 	width: 100%;
 	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+
+	padding-left: $gutter-padding-s;
+	padding-right: $gutter-padding-s;
+	p {
+		padding-top: $gutter-padding-s;
+	}
+}
+
+.typeWriter {
+	min-height: $h1-size;
 }
 
 .ctaContainer {
@@ -14,9 +31,7 @@
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
-	height: 2rem;
-	padding-top: 2rem;
-	gap: 2rem;
+	gap: $gutter-padding-s;
 }
 
 .cta {
@@ -30,5 +45,26 @@
 		color: $text-color-highlight;
 		transition: color 0.2s ease-in-out;
 		transition: border 0.2s ease-in-out;
+	}
+}
+
+.tagline {
+	max-width: 500px;
+	word-wrap: break-word;
+}
+
+.about {
+	padding-left: $gutter-padding-s;
+	padding-right: $gutter-padding-s;
+}
+
+@include m {
+	.title {
+		padding-left: $gutter-padding-m;
+		padding-right: $gutter-padding-m;
+	}
+	.about {
+		padding-left: $gutter-padding-m;
+		padding-right: $gutter-padding-m;
 	}
 }
