@@ -51,6 +51,12 @@
 .tagline {
 	max-width: 500px;
 	word-wrap: break-word;
+	p {
+		color: $accent-color;
+		font-size: 3rem;
+		font-weight: 600;
+		font-family: $alt-family;
+	}
 }
 
 .about {

@@ -25,10 +25,7 @@ export default function Home() {
 					</Link>
 				</div>
 				<div className={styles.tagline}>
-					<p>
-						I'm a Frontend / Fullstack Developer living in Göteborg,Sweden with a passion for Web
-						Technologies, 3D Design & E-commerce.
-					</p>
+					<p>Exploring areas where tech and artistry meet.</p>
 				</div>
 			</header>
 			<section className={styles.about}>
