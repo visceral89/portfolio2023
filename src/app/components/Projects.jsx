@@ -10,31 +10,34 @@ export const Projects = () => {
 				<article className={styles.projectCard}>
 					<Image src='/placeholder_650w.png' width={650} height={650} alt='project image 1' />
 					<div className={styles.projectCardContent}>
-						<h4>Project 1</h4>
+						<h4>Horus Public API</h4>
 						<p>
 							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, ipsum vitae? Aut
 							temporibus accusantium vel!
 						</p>
+						<a href='https://github.com/Visceral89/horusheresy-front'>Read more</a>
 					</div>
 				</article>
 				<article className={styles.projectCard}>
 					<Image src='/placeholder_650w.png' width={650} height={650} alt='project image 1' />
 					<div className={styles.projectCardContent}>
-						<h4>Project 2</h4>
+						<h4>Pokedex App</h4>
 						<p>
 							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, ipsum vitae? Aut
 							temporibus accusantium vel!
 						</p>
+						<a href='https://github.com/Visceral89/Pokedex-Api'>Read more</a>
 					</div>
 				</article>
 				<article className={styles.projectCard}>
 					<Image src='/placeholder_650w.png' width={650} height={650} alt='project image 1' />
 					<div className={styles.projectCardContent}>
-						<h4>Project 3</h4>
+						<h4>Portfolio</h4>
 						<p>
 							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, ipsum vitae? Aut
 							temporibus accusantium vel!
 						</p>
+						<a href='https://github.com/Visceral89/portfolio2023'>Read more</a>
 					</div>
 				</article>
 			</div>

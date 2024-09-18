@@ -2,7 +2,6 @@
 @import "../../styles/breakpoints";
 
 .wrapper {
-	margin-top: 5rem;
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(3, 1fr);
@@ -11,16 +10,36 @@
 
 .projectCard {
 	max-width: 250px;
-	padding: 1rem;
 	border: 1px solid $text-color;
 	border-radius: 1rem;
 	transition: border $hover-time ease-in;
+	overflow: hidden;
 	img {
 		width: 100%;
 		height: 200px;
+
+		object-fit: cover;
+		display: block;
+	}
+	a {
+		font-size: 0.8rem;
 	}
 	&:hover {
 		border: 1px solid $text-color-highlight;
+	}
+}
+
+.projectCardContent {
+	padding: 1rem;
+	transition: color $hover-time ease-in;
+	p {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		font-size: 0.8rem;
+	}
+
+	&:hover {
+		color: $text-color-highlight;
 	}
 }
 
