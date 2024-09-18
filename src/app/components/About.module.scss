@@ -1,3 +1,11 @@
 @import "../../styles/variables";
 @import "../../styles/breakpoints";
 
+.aboutContent {
+	display: flex;
+	flex-direction: column;
+	gap: $gutter-padding-s;
+	padding-left: $gutter-padding-s;
+	padding-right: $gutter-padding-s;
+	max-width: 700px;
+}
