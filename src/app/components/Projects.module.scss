@@ -1,0 +1,33 @@
+@import "../../styles/variables";
+@import "../../styles/breakpoints";
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(3, 1fr);
+	gap: 1rem;
+}
+
+.projectCard {
+	max-width: 250px;
+	padding: 1rem;
+	border: 1px solid $text-color;
+	border-radius: 1rem;
+	transition: border $hover-time ease-in;
+	img {
+		width: 100%;
+		height: 200px;
+	}
+	&:hover {
+		border: 1px solid $text-color-highlight;
+	}
+}
+
+@include m {
+	.projectCard {
+		max-width: 500px;
+		img {
+			height: 300px;
+		}
+	}
+}

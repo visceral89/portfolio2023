@@ -2,6 +2,7 @@ import styles from "./page.module.scss";
 import Link from "next/link";
 import { Typewriter } from "nextjs-simple-typewriter";
 import { About } from "./components/About";
+import { Projects } from "./components/Projects";
 
 export default function Home() {
 	return (
@@ -30,6 +31,7 @@ export default function Home() {
 			</header>
 			<section className={styles.about}>
 				<About />
+				<Projects />
 			</section>
 		</main>
 	);

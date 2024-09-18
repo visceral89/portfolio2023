@@ -46,8 +46,8 @@
 	&:hover {
 		border: 1px solid $text-color;
 		color: $text-color-highlight;
-		transition: color 0.2s ease-in-out;
-		transition: border 0.2s ease-in-out;
+		transition: color $hover-time ease-in-out;
+		transition: border $hover-time ease-in-out;
 	}
 }
 
@@ -63,6 +63,11 @@
 }
 
 .about {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
 	padding-left: $gutter-padding-s;
 	padding-right: $gutter-padding-s;
 }
