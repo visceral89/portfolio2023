@@ -2,6 +2,7 @@
 @import "../../styles/breakpoints";
 
 .wrapper {
+	margin-top: 5rem;
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(3, 1fr);
@@ -28,6 +29,18 @@
 		max-width: 500px;
 		img {
 			height: 300px;
+		}
+	}
+}
+
+@include l {
+	.wrapper {
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: 1fr;
+	}
+	.projectCard {
+		img {
+			height: 200px;
 		}
 	}
 }
