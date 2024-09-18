@@ -26,6 +26,13 @@
 	gap: $gutter-padding-s;
 }
 
-.gridItem {
-	height: 32px;
+@include m {
+	.techGrid {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+@include l {
+	.techGrid {
+		grid-template-columns: repeat(4, 1fr);
+	}
 }
