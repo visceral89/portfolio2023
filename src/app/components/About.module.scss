@@ -25,3 +25,7 @@
 	grid-template-columns: 1fr 1fr;
 	gap: $gutter-padding-s;
 }
+
+.gridItem {
+	height: 32px;
+}

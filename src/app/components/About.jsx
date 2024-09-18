@@ -1,5 +1,22 @@
 import styles from "./About.module.scss";
-import { IconNextJS, IconThreeJS } from "./Icons";
+import {
+	IconNextJS,
+	IconThreeJS,
+	IconJS,
+	IconVue,
+	IconAngular,
+	IconNode,
+	IconSupa,
+	IconPostgre,
+	IconSass,
+	IconTailwind,
+	IconPython,
+	IconGit,
+	IconFigma,
+	IconReact,
+	IconHTML,
+	IconCSS,
+} from "./Icons";
 
 export const About = () => {
 	return (
@@ -26,22 +43,19 @@ export const About = () => {
 				<div className={styles.techGrid}>
 					<IconNextJS />
 					<IconThreeJS />
-					<div className={styles.gridItem}>Javascript</div>
-					<div className={styles.gridItem}>Vue</div>
-					<div className={styles.gridItem}>Angular</div>
-					<div className={styles.gridItem}>NodeJS</div>
-					<div className={styles.gridItem}>Supabase</div>
-					<div className={styles.gridItem}>PostgreSQL</div>
-					<div className={styles.gridItem}>SASS</div>
-					<div className={styles.gridItem}>Tailwind</div>
-					<div className={styles.gridItem}>Vercel</div>
-					<div className={styles.gridItem}>Express</div>
-					<div className={styles.gridItem}>Blender</div>
-					<div className={styles.gridItem}>Python</div>
-					<div className={styles.gridItem}>Git</div>
-					<div className={styles.gridItem}>Figma</div>
-					<div className={styles.gridItem}>React</div>
-					<div className={styles.gridItem}>HTML 5</div>
+					<IconJS />
+					<IconVue />
+					<IconAngular />
+					<IconNode />
+					<IconSupa />
+					<IconPostgre />
+					<IconSass />
+					<IconTailwind />
+					<IconPython />
+					<IconGit />
+					<IconFigma />
+					<IconReact />
+					<IconHTML />
 				</div>
 			</div>
 		</>
