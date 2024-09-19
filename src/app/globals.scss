@@ -32,7 +32,8 @@ body::before {
 	height: 100%;
 	background-image: url("/otis-redding.png");
 	background-repeat: repeat;
-	opacity: 0.15;
+	background-size: 256px;
+	opacity: $noise-opacity;
 	pointer-events: none;
 	z-index: -1;
 }
