@@ -17,7 +17,7 @@ export const Projects = () => {
 								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, ipsum vitae? Aut
 								temporibus accusantium vel!
 							</p>
-							<a href='https://github.com/Visceral89/horusheresy-front'>Read more</a>
+							<p className={styles.readmore}>Read more</p>
 						</div>
 					</article>
 				</a>
@@ -31,7 +31,7 @@ export const Projects = () => {
 								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, ipsum vitae? Aut
 								temporibus accusantium vel!
 							</p>
-							<a href='https://github.com/Visceral89/Pokedex-Api'>Read more</a>
+							<p className={styles.readmore}>Read more</p>
 						</div>
 					</article>
 				</a>
@@ -45,7 +45,7 @@ export const Projects = () => {
 								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, ipsum vitae? Aut
 								temporibus accusantium vel!
 							</p>
-							<a href='https://github.com/Visceral89/portfolio2023'>Read more</a>
+							<p className={styles.readmore}>Read more</p>
 						</div>
 					</article>
 				</a>
