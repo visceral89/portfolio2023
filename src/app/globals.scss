@@ -1,5 +1,6 @@
 @import "../styles/variables";
 @import "../styles/mixins";
+@import "../styles/breakpoints";
 
 * {
 	box-sizing: border-box;
@@ -32,7 +33,7 @@ body::before {
 	height: 100%;
 	background-image: url("/otis-redding.png");
 	background-repeat: repeat;
-	background-size: 256px;
+	background-size: 128px;
 	opacity: $noise-opacity;
 	pointer-events: none;
 	z-index: -1;
@@ -69,5 +70,11 @@ a {
 	&:hover {
 		color: $text-color-highlight;
 		transition: color 0.2s ease-in-out;
+	}
+}
+
+@include m {
+	body::before {
+		background-size: 64px;
 	}
 }

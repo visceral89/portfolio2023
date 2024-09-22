@@ -36,3 +36,11 @@
 		grid-template-columns: repeat(4, 1fr);
 	}
 }
+
+@include xl {
+	.aboutContent {
+		p {
+			max-width: 1500px;
+		}
+	}
+}
