@@ -58,16 +58,18 @@ export const Footer = () => {
 			<div className={styles.infoContainer}>
 				<h4>Social</h4>
 				<ul>
-					<a href='https://github.com/Visceral89'>
+					<a aria-label='Github Link' href='https://github.com/Visceral89'>
 						<li>Github</li>
 					</a>
-					<a href='https://www.linkedin.com/in/rasmus-bremholm/'>
+					<a aria-label='Link to my Linkedin' href='https://www.linkedin.com/in/rasmus-bremholm/'>
 						<li>Linkedin</li>
 					</a>
-					<a href='https://www.artstation.com/visceral3d'>
+					<a aria-label='View my works on Artstation' href='https://www.artstation.com/visceral3d'>
 						<li>Artstation</li>
 					</a>
-					<a href='https://www.instagram.com/rasmus.bremholm?igsh=MWw2Mm5iYWRlcWoydQ=='>
+					<a
+						aria-label='Take a look at my Instagram'
+						href='https://www.instagram.com/rasmus.bremholm?igsh=MWw2Mm5iYWRlcWoydQ=='>
 						<li>Instagram</li>
 					</a>
 				</ul>
