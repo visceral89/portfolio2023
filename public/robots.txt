@@ -1,7 +1,0 @@
-# Block Secret pages.
-User-agent: *
-Allow: /
-Disallow: /secret
-
-
-Sitemap: https://www.rasmusbremholm.com/sitemap.xml

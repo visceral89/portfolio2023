@@ -1,0 +1,46 @@
+@import "../../styles/variables";
+@import "../../styles/breakpoints";
+
+.aboutContent {
+	display: flex;
+	flex-direction: column;
+	gap: $gutter-padding-s;
+	padding-left: $gutter-padding-s;
+	padding-right: $gutter-padding-s;
+	p {
+		max-width: 700px;
+	}
+}
+.span {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: $accent-color;
+	&:hover {
+		color: darken($accent-color, 10%);
+	}
+}
+
+.techGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: $gutter-padding-s;
+}
+
+@include m {
+	.techGrid {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+@include l {
+	.techGrid {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+@include xl {
+	.aboutContent {
+		p {
+			max-width: 1500px;
+		}
+	}
+}
