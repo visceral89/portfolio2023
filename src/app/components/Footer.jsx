@@ -40,17 +40,19 @@ export const Footer = () => {
 						</svg>{" "}
 						+46 762 69 30 31
 					</li>
-					<li>
-						<svg
-							xmlns='http://www.w3.org/2000/svg'
-							height='12px'
-							viewBox='0 -960 960 960'
-							width='12px'
-							fill='#898989'>
-							<path d='M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z' />
-						</svg>{" "}
-						rasmus.brem@gmail.com
-					</li>
+					<a href='mailto:rasmus.brem@gmail.com'>
+						<li>
+							<svg
+								xmlns='http://www.w3.org/2000/svg'
+								height='12px'
+								viewBox='0 -960 960 960'
+								width='12px'
+								fill='#898989'>
+								<path d='M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z' />
+							</svg>{" "}
+							rasmus.brem@gmail.com
+						</li>
+					</a>
 				</ul>
 			</div>
 			<div className={styles.infoContainer}>

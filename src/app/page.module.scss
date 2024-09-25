@@ -72,6 +72,26 @@
 	padding-right: $gutter-padding-s;
 }
 
+.contactCardInfo {
+	li {
+		list-style: none;
+		display: flex;
+		align-items: center;
+		transition: color $hover-time ease-in;
+		svg {
+			margin-right: 1rem;
+			transition: color $hover-time ease-in;
+		}
+		&:hover {
+			color: $text-color-highlight;
+
+			svg {
+				fill: $text-color-highlight;
+			}
+		}
+	}
+}
+
 @include m {
 	.title {
 		h1 {

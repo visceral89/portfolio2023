@@ -1,0 +1,35 @@
+@import "../../styles/variables";
+@import "../../styles/breakpoints";
+.title {
+	min-height: calc(100svh - 200px);
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+
+	padding: 10% $gutter-padding-s;
+	h1 {
+		font-size: 3rem;
+	}
+	p {
+		padding-top: $gutter-padding-s;
+	}
+}
+
+@include m {
+	.title {
+		padding: 10% $gutter-padding-m;
+	}
+}
+
+@include l {
+	.title {
+		padding: 10% $gutter-padding-l;
+	}
+}
+@include xl {
+	.title {
+		padding: 10% $gutter-padding-xl;
+	}
+}
