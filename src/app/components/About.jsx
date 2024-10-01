@@ -23,7 +23,6 @@ export const About = () => {
 		<>
 			<h2 id='about'>About Me</h2>
 			<div className={styles.aboutContent}>
-				<h3 className={styles.span}>A bit about me</h3>
 				<p>
 					I'm a self-taught Frontend/Fullstack developer that is currently studying Frontend
 					Development at IT Högskolan in Göteborg, Sweden. I love exploring areas where tech and
@@ -34,7 +33,7 @@ export const About = () => {
 				<p>
 					In my freetime I experiment with new technologies and use the 3D models I create to make
 					games. Please feel free to check out my
-					<a href=''>
+					<a href='https://github.com/Visceral89'>
 						<span className={styles.span}> Github </span>
 					</a>
 					to get a sense of what im working on currently.
