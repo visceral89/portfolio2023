@@ -71,6 +71,9 @@ export default function Contact() {
 									Github
 								</li>
 							</a>
+							<a href='/CV-Rasmus-Bremholm-2024.pdf' target='_blank' rel='noopener noreferrer'>
+								<div>Cover Letter | CV</div>
+							</a>
 						</ul>
 					</div>
 				</div>
