@@ -17,6 +17,13 @@
 	}
 }
 
+.list {
+	margin-top: 1rem;
+	li {
+		padding-bottom: 0.5rem;
+	}
+}
+
 @include m {
 	.title {
 		padding: 10% $gutter-padding-m;
