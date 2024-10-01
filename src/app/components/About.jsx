@@ -33,7 +33,7 @@ export const About = () => {
 				<p>
 					In my freetime I experiment with new technologies and use the 3D models I create to make
 					games. Please feel free to check out my
-					<a href=''>
+					<a href='https://github.com/Visceral89'>
 						<span className={styles.span}> Github </span>
 					</a>
 					to get a sense of what im working on currently.
