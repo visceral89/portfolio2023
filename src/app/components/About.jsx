@@ -23,7 +23,6 @@ export const About = () => {
 		<>
 			<h2 id='about'>About Me</h2>
 			<div className={styles.aboutContent}>
-				<h3 className={styles.span}>A bit about me</h3>
 				<p>
 					I'm a self-taught Frontend/Fullstack developer that is currently studying Frontend
 					Development at IT Högskolan in Göteborg, Sweden. I love exploring areas where tech and

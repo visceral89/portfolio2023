@@ -17,6 +17,9 @@
 .logo {
 	width: 100%;
 	padding-left: $gutter-padding-s;
+	svg {
+		height: 1rem;
+	}
 }
 
 .links {
@@ -39,7 +42,7 @@
 
 @include l {
 	.logo {
-		padding-left: $gutter-padding-l;
+		padding-left: $gutter-padding-m;
 	}
 	.links {
 		padding-right: $gutter-padding-l;
@@ -47,7 +50,7 @@
 }
 @include xl {
 	.logo {
-		padding-left: $gutter-padding-xl;
+		padding-left: $gutter-padding-m;
 	}
 	.links {
 		padding-right: $gutter-padding-xl;
