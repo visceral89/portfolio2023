@@ -10,7 +10,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
 	title: "Rasmus Bremholm | Portfolio",
-	description: "Rasmus Bremholm | Frontend Developer from Gothenburg Sweden",
+	description:
+		"Rasmus Bremholm | Frontend Developer from Gothenburg Sweden. I specialise in Frontend Development but im also a skilled 3D Artist and love Backend feel free to reach out to me!",
 	openGraph: {
 		title: "Rasmus Bremholm | Frontend Portfolio",
 		description:
