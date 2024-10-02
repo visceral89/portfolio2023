@@ -7,15 +7,14 @@ export const Projects = () => {
 		<>
 			<h2 id='projects'>Recent Projects</h2>
 			<div className={styles.wrapper}>
-				<a href='https://github.com/Visceral89/horusheresy-front'>
+				<a href='https://horus-heresy-next.vercel.app/'>
 					<article className={styles.projectCard}>
 						<Image src='/placeholder_650w.png' width={650} height={650} alt='project image 1' />
 						<div className={styles.projectCardContent}>
 							<h4>Horus Public API</h4>
-
 							<p>
-								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, ipsum vitae? Aut
-								temporibus accusantium vel!
+								This project was the second time I made a public REST API, this started out using
+								Supabase postgresdatabase but ended up on Vercel.
 							</p>
 							<p className={styles.readmore}>Read more</p>
 						</div>
@@ -26,10 +25,9 @@ export const Projects = () => {
 						<Image src='/placeholder_650w.png' width={650} height={650} alt='project image 1' />
 						<div className={styles.projectCardContent}>
 							<h4>Pokedex App</h4>
-
 							<p>
-								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, ipsum vitae? Aut
-								temporibus accusantium vel!
+								A pokedex app using Serverside rendering and Pokemon API v2. A challenge to combine
+								server side components with client interactions and conditional datafetching.
 							</p>
 							<p className={styles.readmore}>Read more</p>
 						</div>
@@ -40,10 +38,9 @@ export const Projects = () => {
 						<Image src='/placeholder_650w.png' width={650} height={650} alt='project image 1' />
 						<div className={styles.projectCardContent}>
 							<h4>Portfolio</h4>
-
 							<p>
-								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, ipsum vitae? Aut
-								temporibus accusantium vel!
+								My portfolio website is a serverside rendered static site, this was moore of a
+								design challenge using much of what Iam learning on ITHS.
 							</p>
 							<p className={styles.readmore}>Read more</p>
 						</div>
