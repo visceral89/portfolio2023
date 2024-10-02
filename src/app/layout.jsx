@@ -9,6 +9,13 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
 	title: "Rasmus Bremholm | Portfolio",
 	description: "Rasmus Bremholm | Frontend Developer from Gothenburg Sweden",
+	openGraph: {
+		title: "Rasmus Bremholm | Portfolio",
+		description:
+			"Rasmus Bremholm Portfolio, a frontend developer from Gothenburg Sweden looking for new oppurtunities",
+		url: "https://www.rasmusbremholm.com",
+		siteName: "Rasmus Bremholm Portfolio",
+	},
 };
 
 export default function RootLayout({ children }) {
