@@ -14,7 +14,7 @@ export const Projects = () => {
 							<h4>Horus Public API</h4>
 							<p>
 								This project was the second time I made a public REST API, this started out using
-								Supabase postgresdatabase but ended up on Vercel.
+								Supabase postgresdatabase but ended up on Vercel. Nextjs 13 + PostgresDB
 							</p>
 							<p className={styles.readmore}>Read more</p>
 						</div>
@@ -26,8 +26,9 @@ export const Projects = () => {
 						<div className={styles.projectCardContent}>
 							<h4>Pokedex App</h4>
 							<p>
-								A pokedex app using Serverside rendering and Pokemon API v2. A challenge to combine
-								server side components with client interactions and conditional datafetching.
+								A pokedex app using Serverside rendering and Poke API v2. A challenge to combine
+								server side components with client interactions and conditional datafetching. NextJS
+								+ PokeAPI
 							</p>
 							<p className={styles.readmore}>Read more</p>
 						</div>
@@ -40,7 +41,7 @@ export const Projects = () => {
 							<h4>Portfolio</h4>
 							<p>
 								My portfolio website is a serverside rendered static site, this was moore of a
-								design challenge using much of what Iam learning on ITHS.
+								design challenge using much of what Iam learning on ITHS. NextJs 14.2
 							</p>
 							<p className={styles.readmore}>Read more</p>
 						</div>
