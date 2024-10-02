@@ -40,7 +40,7 @@ export const Footer = () => {
 						</svg>{" "}
 						+46 762 69 30 31
 					</li>
-					<a href='mailto:rasmus.brem@gmail.com'>
+					<a aria-label="email me" href='mailto:rasmus.brem@gmail.com'>
 						<li>
 							<svg
 								xmlns='http://www.w3.org/2000/svg'
@@ -78,16 +78,24 @@ export const Footer = () => {
 				<h4>Navigation</h4>
 				<ul>
 					<li>
-						<Link href='/'>Home</Link>
+						<Link aria-label='footer link home' href='/'>
+							Home
+						</Link>
 					</li>
 					<li>
-						<Link href='/'>Projects</Link>
+						<Link aria-label='footer link projects' href='/'>
+							Projects
+						</Link>
 					</li>
 					<li>
-						<Link href='/contact'>Contact</Link>
+						<Link aria-label='footer link contactpage' href='/contact'>
+							Contact
+						</Link>
 					</li>
 					<li>
-						<Link href='/'>About</Link>
+						<Link aria-label='footer link about me' href='/'>
+							About
+						</Link>
 					</li>
 				</ul>
 			</div>
