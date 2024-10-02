@@ -6,10 +6,12 @@
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(3, 1fr);
 	gap: 1rem;
+	margin-bottom: $gutter-padding-m;
 }
 
 .projectCard {
 	max-width: 250px;
+	min-height: 400px;
 	border: 1px solid $text-color;
 	border-radius: 1rem;
 	transition: border $hover-time ease-in;
