@@ -2,7 +2,7 @@
 
 - Hero image
 - Complete contact form
-- Linked text in project card
+- Linked heading text in project card
 - Projects Page
 - Projects Preview Images
 
