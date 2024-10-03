@@ -1,9 +1,10 @@
 ## Todo:
+
 - Hero image
 - Complete contact form
+- Linked text in project card
 - Projects Page
 - Projects Preview Images
-
 
 ## Getting Started
 
