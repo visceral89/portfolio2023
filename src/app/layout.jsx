@@ -15,7 +15,7 @@ export const metadata = {
 	openGraph: {
 		title: "Rasmus Bremholm | Frontend Portfolio",
 		description:
-			"Rasmus Bremholm Portfolio, a frontend developer from Gothenburg Sweden looking for new oppurtunities",
+			"I'm a self-taught Frontend/Fullstack developer that is currently studying Frontend Development at IT Högskolan in Göteborg, Sweden. I love exploring areas where tech and artistry meet.",
 		url: "https://www.rasmusbremholm.com",
 		siteName: "Rasmus Bremholm Portfolio",
 		images: [
@@ -33,7 +33,7 @@ export const metadata = {
 		card: "summary_large_image",
 		title: "Rasmus Bremholm | Frontend Developer",
 		description:
-			"Rasmus Bremholm Portfolio, a frontend developer from Gothenburg Sweden looking for new oppurtunities",
+			"I'm a self-taught Frontend/Fullstack developer that is currently studying Frontend Development at IT Högskolan in Göteborg, Sweden. I love exploring areas where tech and artistry meet.",
 		images: [
 			{
 				url: "https://www.rasmusbremholm.com/og-image.jpg",

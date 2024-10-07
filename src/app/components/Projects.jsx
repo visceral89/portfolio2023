@@ -7,9 +7,15 @@ export const Projects = () => {
 		<>
 			<h2 id='projects'>Recent Projects</h2>
 			<div className={styles.wrapper}>
-				<a href='https://horus-heresy-next.vercel.app/'>
+				<a aria-label='horus heresy rest api' href='https://horus-heresy-next.vercel.app/'>
 					<article className={styles.projectCard}>
-						<Image src='/placeholder_650w.png' width={650} height={650} alt='project image 1' />
+						<Image
+							priority={false}
+							src='/placeholder_650w.png'
+							width={650}
+							height={650}
+							alt='Horus Heresy RestAPI Banner'
+						/>
 						<div className={styles.projectCardContent}>
 							<h4>Horus Public API</h4>
 							<p>
@@ -22,7 +28,13 @@ export const Projects = () => {
 				</a>
 				<a href='https://github.com/Visceral89/Pokedex-Api'>
 					<article className={styles.projectCard}>
-						<Image src='/placeholder_650w.png' width={650} height={650} alt='project image 1' />
+						<Image
+							priority={false}
+							src='/placeholder_650w.png'
+							width={650}
+							height={650}
+							alt='Pokedex Banner'
+						/>
 						<div className={styles.projectCardContent}>
 							<h4>Pokedex App</h4>
 							<p>
@@ -36,7 +48,13 @@ export const Projects = () => {
 				</a>
 				<a href='https://github.com/Visceral89/portfolio2023'>
 					<article className={styles.projectCard}>
-						<Image src='/placeholder_650w.png' width={650} height={650} alt='project image 1' />
+						<Image
+							priority={false}
+							src='/placeholder_650w.png'
+							width={650}
+							height={650}
+							alt='Portfolio Banner'
+						/>
 						<div className={styles.projectCardContent}>
 							<h4>Portfolio</h4>
 							<p>
@@ -49,7 +67,7 @@ export const Projects = () => {
 				</a>
 			</div>
 			<div className={styles.viewMore}>
-				<a href='https://github.com/Visceral89'>
+				<a aria-label='link to github' href='https://github.com/Visceral89'>
 					<svg
 						width='32'
 						height='32'

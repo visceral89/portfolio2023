@@ -7,6 +7,7 @@
 	gap: $gutter-padding-s;
 	padding-left: $gutter-padding-m;
 	padding-right: $gutter-padding-m;
+	padding-bottom: $gutter-padding-m;
 	max-width: 700px;
 	h3 {
 		padding-top: 2rem;
@@ -35,12 +36,12 @@
 }
 @include l {
 	.techGrid {
-		grid-template-columns: repeat(4, 1fr);
+		grid-template-columns: repeat(5, 1fr);
 	}
 }
 
 @include xl {
 	.aboutContent {
-		max-width: 800px;
+		max-width: 900px;
 	}
 }
