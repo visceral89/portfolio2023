@@ -1,5 +1,6 @@
 import styles from "../page.module.scss";
 import overrides from "./contact.module.scss";
+import ContactForm from "../components/ContactForm";
 
 export default function Contact() {
 	return (
@@ -81,10 +82,7 @@ export default function Contact() {
 										height='18px'
 										viewBox='0 0 43.916 43.916'>
 										<g id='SVGRepo_bgCarrier' strokeWidth='0'></g>
-										<g
-											id='SVGRepo_tracerCarrier'
-											strokeLinecap='round'
-											strokeLinejoin='round'></g>
+										<g id='SVGRepo_tracerCarrier' strokeLinecap='round' strokeLinejoin='round'></g>
 										<g id='SVGRepo_iconCarrier'>
 											{" "}
 											<g>
@@ -98,6 +96,9 @@ export default function Contact() {
 							</li>
 						</ul>
 					</div>
+				</div>
+				<div className={overrides.contactForm}>
+					<ContactForm />
 				</div>
 			</header>
 		</main>
