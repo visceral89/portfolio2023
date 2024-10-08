@@ -44,7 +44,7 @@ export default function ContactForm() {
 				</label>
 				<input type='email' name='email' placeholder='Email' />
 			</div>
-			<div className={styles.fieldGroup} id="textarea">
+			<div className={styles.textAreaGroup}>
 				<label className={styles.label} htmlFor='messege'>
 					Messege
 				</label>
