@@ -14,7 +14,7 @@ export default function ContactForm() {
 	const [isSuccess, setIsSuccess] = useState(false);
 	const [result, setResult] = useState(null);
 
-	const { submit: onSubmit } = useWeb3Forms({
+	const { submit: onSubmit } = useWeb3forms({
 		access_key: accessKey,
 		settings: {
 			from_name: "Form",
