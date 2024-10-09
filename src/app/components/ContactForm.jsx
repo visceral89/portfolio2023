@@ -1,54 +1,65 @@
 "use client";
 
 import styles from "./ContactForm.module.scss";
+import { useForm } from "react-hook-form";
+import useWeb3forms from "@web3forms/react";
+import { useState, useEffect } from "react";
 
 // https://web3forms.com/platforms/nextjs-contact-form
 
 export default function ContactForm() {
 	const accessKey = process.env.CONTACT_KEY;
+	const { register, reset, handleSubmit } = useForm();
 
-	async function handleSubmit(event) {
-		event.preventDefault();
-		const formData = new FormData(event.target);
+	const [isSuccess, setIsSuccess] = useState(false);
+	const [result, setResult] = useState(null);
 
-		formData.append("access_key", accessKey);
-
-		const object = Object.fromEntries(formData);
-		const json = JSON.stringify(object);
-
-		const response = await fetch("https://api.web3forms.com/submit", {
-			method: "POST",
-			headers: {
-				"Content-Type": "application/json",
-				Accept: "application.json",
-			},
-			body: json,
-		});
-		const result = await response.json();
-		if (result.success) {
-			console.log(result);
-		}
-	}
+	const { submit: onSubmit } = useWeb3Forms({
+		access_key: accessKey,
+		settings: {
+			from_name: "Form",
+			subject: "From Website",
+		},
+		onSuccess: (msg, data) => {
+			setIsSuccess(true);
+			setResult(msg);
+			reset();
+		},
+		onError: (msg, data) => {
+			setIsSuccess(false);
+			setResult(msg);
+		},
+	});
 
 	return (
-		<form className={styles.form} onSubmit={handleSubmit}>
+		<form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
 			<div className={styles.fieldGroup}>
 				<label className={styles.label} htmlFor='name'>
 					Name
 				</label>
-				<input type='text' name='name' placeholder='Your Name' />
+				<input
+					type='text'
+					{...register("name", { required: true })}
+					name='name'
+					placeholder='Your Name'
+				/>
 			</div>
 			<div className={styles.fieldGroup}>
 				<label className={styles.label} htmlFor='email'>
 					Email
 				</label>
-				<input type='email' name='email' placeholder='Email' />
+				<input
+					type='email'
+					{...register("email", { required: true })}
+					name='email'
+					placeholder='Email'
+				/>
 			</div>
 			<div className={styles.textAreaGroup}>
 				<label className={styles.label} htmlFor='messege'>
 					Messege
 				</label>
-				<textarea name='message'>Message</textarea>
+				<textarea name='message' {...register("message", { required: true })}></textarea>
 			</div>
 			<button className={styles.btnSubmit} type='submit'>
 				Send
