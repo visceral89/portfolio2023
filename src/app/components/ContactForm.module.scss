@@ -42,6 +42,10 @@
 		}
 	}
 }
+.textAreaGroup {
+	display: flex;
+	flex-direction: column;
+}
 
 .fieldGroup {
 	display: flex;
@@ -51,7 +55,7 @@
 	color: darken($color: $text-color, $amount: 20%);
 }
 
-@include m {
+@media (min-width: 450px) {
 	.form {
 		grid-template-columns: 1fr 1fr;
 		gap: 1rem;
@@ -67,5 +71,11 @@
 			flex-direction: column;
 			grid-column: 1 / span 2;
 		}
+	}
+}
+
+@include m {
+	.form {
+		max-width: 650px;
 	}
 }
