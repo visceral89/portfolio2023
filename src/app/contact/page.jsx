@@ -97,9 +97,7 @@ export default function Contact() {
 						</ul>
 					</div>
 				</div>
-				<div className={overrides.contactForm}>
-					<ContactForm />
-				</div>
+				<div className={overrides.contactForm}>{/* <ContactForm />*/}</div>
 			</header>
 		</main>
 	);
